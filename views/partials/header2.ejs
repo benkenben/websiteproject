@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Prime Tech</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/lib/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="/lib/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="/lib/css/col.css">
+        <link rel="stylesheet" type="text/css" href="/lib/css/2cols.css">
+        <link rel="stylesheet" type="text/css" href="/lib/css/3cols.css">
+        <link rel="stylesheet" type="text/css" href="/lib/css/4cols.css">
+        <link rel="stylesheet" type="text/css" href="/lib/css/5cols.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/lib/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/queries.css">
+    </head>
+    <body>
+        <nav class="nav-blog">
+            <div class="group">
+                <a class="brand" id="benkeyben" href="/">Benkeyben</a>
+                <% if(currentUser){ %>
+                    <ul><li><a href="#"><span class="crt-user"><%= currentUser.username %></span></a></li></ul>
+                <% } %>
+                <ul class="main-nav-blog js--main-nav">
+                    <li class="<%= typeof page !== 'undefined' && page === 'blogs' ? 'active' : '' %>"><a href="/becepastquestions">Home</a></li>
+        
+                    <% if(currentUser && currentUser.isAdmin){ %>
+                        <li class="<%= typeof page !== 'undefined' && page === 'blogs/newBlog' ? 'active' : '' %>"><a href="/becepastquestions/blogs/new" target="_blank">New Post</a></li>
+                    <% } %>
+                    <li> <a href="#" target="_blank" >Portfolio</a></li>
+                    
+                        <li class="<%= typeof page !== 'undefined' && page === 'blogs/showBlog'? 'active' : '' %>"><a href="#">Blog</a></li>
+
+                    <% if(!currentUser){ %>
+                        <li class="<%= typeof page !== 'undefined' && page === 'login' ? 'active' : '' %>"><a href="/login" >Login<i class="fa fa-user-plus"></i></a></li>
+                        <li class="<%= typeof page !== 'undefined' && page === 'register' ? 'active' : '' %>"><a href="/register" >Sign Up<i class="fa fa-user-plus"></i></a></li>
+                    <% } else { %> 
+                        <li><a href="/logout">Logout</a></li>
+                        <li><a href="#"><span class="username-span"><%= currentUser.username %></a></li>
+                    <% } %>
+
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            </div>
+        </nav>
+        

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Prime Tech</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/lib/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="/lib/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="/lib/css/col.css">
+  <link rel="stylesheet" type="text/css" href="/lib/css/2cols.css">
+  <link rel="stylesheet" type="text/css" href="/lib/css/3cols.css">
+  <link rel="stylesheet" type="text/css" href="/lib/css/4cols.css">
+  <link rel="stylesheet" type="text/css" href="/lib/css/5cols.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/lib/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/queries.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="group">
+              <a class="brand" href="/">Benkeyben</a>
+              <% if(currentUser){ %>
+                <ul><li><a href="#"><span class="crt-user"><%= currentUser.username %></span></a></li></ul>
+              <% } %>
+              <ul class="main-nav js--main-nav">
+                  <li class="<%= typeof page !== 'undefined' && page === 'blogs' ? 'active' : '' %>"><a href="/becepastquestions">Home</a></li>
+  
+                  <% if(currentUser && currentUser.isAdmin){ %>
+                      <li class="<%= typeof page !== 'undefined' && page === 'blogs/newBlog' ? 'active' : '' %>"><a href="/becepastquestions/blogs/new" target="_blank">New Post</a></li>
+                  <% } %>
+                  <li> <a href="#" target="_blank" >Portfolio</a></li>
+                  
+                  <% for (let i = 0; i < blogs.length; i++){ %>
+                   <% if( i === 0){ %>
+                    <li> <a href="/becepastquestions/blogs/<%= blogs[i]._id %>">Blog</a></li>  
+                   <% } %>
+                  <% } %>
+
+                  <% if(!currentUser){ %>
+                      <li class="<%= typeof page !== 'undefined' && page === 'login' ? 'active' : '' %>"><a href="/login" >Login<i class="fa fa-user-plus"></i></a></li>
+                      <li class="<%= typeof page !== 'undefined' && page === 'register' ? 'active' : '' %>"><a href="/register" >Sign Up<i class="fa fa-user-plus"></i></a></li>
+                  <% } else { %>
+                      <li><a href="/logout">Logout</a></li>
+                      <li><a href="#"><span class="username-span"><%= currentUser.username %></span></a></li>
+                  <% } %>
+              </ul>
+              <a class="mobile-nav-icon js--nav-icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
+          </div>
+      </nav>
+      <div class="hero-text-box">
+          <div class="group">
+          <h1>B.E.C.E PAST QUESTIONS AND ANSWERS</h1>
+          </div>
+          <div class="group">
+          <div class="header-btn">
+              <a href="#" class="btn-ctrl btn-full js--scroll-to-quiz">B.E.C.E Quizzes</a>
+          </div>
+          <div class="header-btn" id="notes">
+              <a href="#" class="btn-ctrl btn-full js--scroll-to-downloads">Lesson notes</a>
+          </div>
+          <div class="header-btn" id="syllabus">
+              <a href="#" class="btn-ctrl btn-full js--scroll-to-downloads">Syllabus</a>
+          </div>
+          <div class="header-btn" id="exams">
+              <a href="#" class="btn-ctrl btn-full js--scroll-to-downloads">J.h.s Exam</a>
+          </div>
+          <div class="header-btn" id="mock">
+              <a href="#" class="btn-ctrl btn-full js--scroll-to-downloads">Mock Exams</a>
+          </div>
+          </div>
+      </div>
+    </header>
+  
+
+    
