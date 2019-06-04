@@ -75,8 +75,7 @@ a.btn-success:visited{ color: #fff; }
 .brand, .header-btn, 
 .accordion-content li, 
 .left-column, 
-.middle-column, 
-.footer-nav{
+.middle-column{
   float: left;
 }
 
@@ -225,6 +224,8 @@ a.brand:hover { color: #fff;}
 /* Main nav */
 .main-nav{ float: right; }
 
+nav { box-shadow: rgba(0, 0, 0, 0.56) 5px 8px 10px -5px;}
+
 .active{
   color: #fff;
   border-bottom: 3px solid #fff;
@@ -279,7 +280,7 @@ nav .group {
 }
 
 .nav-blog{ 
-  background-color: #333;
+  background-color: #111010e5;
   position: fixed;
   width: 100%;
   z-index: 9999;
@@ -335,7 +336,7 @@ nav .group {
   left: 0;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.986);
-  box-shadow: 0 2px 2px #efefef;
+  box-shadow: rgba(0, 0, 0, 0.56) 5px 8px 10px -5px;
   z-index: 9999;
 }
 
@@ -727,93 +728,92 @@ button.accordion:hover, button.accordion.is-open{
 .lesson-notes li a:active{ color: #666; }
 
 /* ============================ */
-/* -------Section FORMS-------*/
-/* ============================ */
-.section-forms h3{
-  font-weight: 300;
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 150%;
-}
-
-.section-forms form{
-  width: 30%;
-  margin: 20px auto;
-  font-size: 90%;
-}
-
-.section-forms form label{
-  display: block;
-  padding-bottom: 10px;
-}
-
-.section-forms form input{
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 7px 20px;
-  font-size: 90%;
-  border: 1px solid #ccc;
-  outline: none;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-}
-
-.section-forms form input:focus{
-  border: 1px solid #666;
-  color: #555;
-}
-.section-forms form input:focus::placeholder,
-.section-forms form input:focus:-ms-input-placeholder,
-.section-forms form input:focus::-ms-input-placeholder{
-  color: #666;
-}
-
-.section-forms form input:focus::placeholder{
-  opacity: 1;
-  color: #666;
-}
-
-/* ============================ */
 /* FOOTER*/
 /* ============================ */
 footer{
-  background-color: #333;
-  padding: 50px;
-  font-size: 80%;
+  background-color: #111010;
+  padding: 50px 0 10px 0;
+  font-size: 70%;
 }
 
-.social-links{ float: right; }
+footer .col.span_1_of_3{ padding: 0 1%; }
 
-.footer-nav li,
-.social-links li{
+footer h3{
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+footer .fa{
   display: inline-block;
+  color: #ddd;
+  font-size: 160%;
   margin-right: 20px;
 }
 
-.footer-nav li:last-child,
-.social-links li:last-child{ margin-right: 0; }
+footer .col.span_1_of_3 p{ 
+  color: #ddd;
+  font-size: 170%;
+  font-style: italic;
+  margin-bottom: 20px;
+ }
+
+.footer-nav { width: 100%; }
+
+.footer-nav li, .footer-social-links li{
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.footer-nav li p{ text-align: center; }
 
 .footer-nav li a:link,
-.footer-nav li a:visited,
-.social-links li a:link,
-.social-links li a:visited{
+.footer-nav li a:visited{
   text-decoration: none;
   border: none;
   color: #888;
 }
 
-.footer-nav li a:hover,
-.footer-nav li a:active{ color: #ddd; }
+.contact-number{ 
+  color: #888;
+  font-size: 120%;
+}
 
-.social-links li a:link,
-.social-links li a:visited{ font-size: 160%; }
+.footer-nav li a:hover,
+.footer-nav li a:active { 
+  color: #ddd; 
+  text-decoration: none;
+}
+
+/* .contact-number, .email{ 
+    font-size: 130%;
+    font-weight: 700;
+  } */
+
+#like-me{ padding-left: 30px; }
 
 .fa-facebook,
 .fa-twitter,
-.fa-instagram{ transition: color 0.2s; }
+.fa-instagram{
+  background-color: #333;
+  transition: color 0.2s , background-color 0.2s, border 0.2s;
+  -webkit-transition: color 0.2s , background-color 0.2s, border 0.2s;
+  -moz-transition: color 0.2s , background-color 0.2s, border 0.2s;
+  -ms-transition: color 0.2s , background-color 0.2s, border 0.2s;
+  -o-transition: color 0.2s , background-color 0.2s, border 0.2s;
+  border: 1px solid #333;
+  padding: 10px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.fa-facebook {padding: 10px 15px;}
+
+.fa-facebook:hover, 
+.fa-twitter:hover, 
+.fa-instagram:hover{background-color: #ddd; }
 
 .fa-facebook:hover{ color: #3b5998; }
 
@@ -821,20 +821,64 @@ footer{
 
 .fa-instagram:hover{ color: #517fa4; }
 
-footer p{
-  color: #888;
-  text-align: center;
-  margin-top: 20px;
+.fa-phone:hover,.fa-envelope-o:hover{color: #ddd}
+
+.news-letter {text-align: center;}
+
+footer form .form-control{
+  background-color: #353131;
+  border: 1px solid #353131;
+  color: #ddd;
 }
+footer form .form-control:hover {color:#fff;}
+
+footer form input[type="submit"]{
+  background-color: #00aced;
+  border: 1px solid #00aced;
+  color: #fff;
+  font-size: 120%;
+  font-weight: 600;
+}
+
+footer form .form-control::-webkit-input-placeholder { 
+  color: #ddd;
+  padding-left: 20px;
+ }  /* WebKit, Blink, Edge */
+footer form .form-control:-moz-placeholder { 
+  color: #ddd;
+  padding-left: 20px;
+ }  /* Mozilla Firefox 4 to 18 */
+footer form .form-control::-moz-placeholder { 
+  color: #ddd;
+  padding-left: 20px;
+ }  /* Mozilla Firefox 19+ */
+footer form .form-control:-ms-input-placeholder { 
+  color: #ddd;
+  padding-left: 20px;
+ }  /* Internet Explorer 10-11 */
+footer form .form-control::-ms-input-placeholder { 
+  color: #ddd;
+  padding-left: 20px;
+ }  /* Microsoft Edge */
+
+.footer-copy-right {
+  width: 100%;
+  font-size: 120%;
+  text-align: center;
+  margin: 5% 0;
+  color: #888;
+  transition: background-color 0.2s, color 0.2s;
+  -webkit-transition: background-color 0.2s, color 0.2s;
+  -moz-transition: background-color 0.2s, color 0.2s;
+  -ms-transition: background-color 0.2s, color 0.2s;
+  -o-transition: background-color 0.2s, color 0.2s;
+}
+.footer-copy-right:hover{ color: #ddd;}
 
 /* SHOW BLOG SECTION */
-#delete-form{
-  display: inline;
-}
+#delete-form{ display: inline; }
 
-.edit-blog {
-  margin-bottom: 20px;
-}
+.edit-blog { margin-bottom: 20px; }
 
 /* Author*/
 .author__photo, .author__title{ float: left; }
@@ -885,7 +929,7 @@ footer p{
   font-size: 120%; 
 }
 
-.collapse .well { border-left: 5px solid #00C851; }
+.collapse .well { border-left: 5px solid #00aced; }
 .collapse form input {
   border: none;
   background: none;

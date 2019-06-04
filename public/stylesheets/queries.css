@@ -9,13 +9,6 @@ section{ padding: 55px 0;}
 
 .section-quiz h2{ margin-bottom: 50px;}
 
-
-/* .brand {
-  margin-top: 5px;
-  padding-top: 0;
-  font-size: 120%;
-  margin-left: 6.5%;
-} */
 .nav-blog .group{ padding: 14px 10px 0 10px; }
 
 .main-nav{ display: block;}
@@ -173,7 +166,6 @@ a.brand { padding-top: 9px;}
     margin-bottom: 0;
   }
 
-  
   .section-downloads h3{ 
     padding: 0 0 6% 0 ; 
     text-align: center;
@@ -242,19 +234,20 @@ a.brand { padding-top: 9px;}
   /* Login and Sign in */
   .col-centered{ width: 35%;  }
   
+  /* Footer Section */
+  .news-letter {text-align: left;}
+/* 
+  .contact-number, .email{ 
+    font-size: 130%;
+    font-weight: 700;
+  } */
+  
 }
 
 /*From small tablets to big tablett: From 930px to 1023px*/
 @media only screen and (max-width: 1023px){
   body{ font-size: 18px;}
 
-  
-  /* .brand {
-    margin-top: 5px;
-    padding-top: 0;
-    font-size: 120%;
-    margin-left: 6.5%;
-  } */
   .nav-blog .group{ padding: 14px 10px 0 10px; }
   
   .main-nav{ display: block;}
@@ -472,6 +465,14 @@ select{
     width: 80%;
     margin: 7% 10%;
   }
+  
+  /* Footer Section */
+  .news-letter {text-align: left;}
+/* 
+  .contact-number, .email{ 
+    font-size: 130%;
+    font-weight: 700;
+  } */
 
 }
 
@@ -699,6 +700,14 @@ select{
     width: 90%;
     margin: 7% 5%;
   }
+
+  /* Footer Section */
+  .news-letter {text-align: left;}
+
+  #like-me{ 
+    padding-left: 11%; 
+    margin-bottom: 0;
+  }
  
 }
 
@@ -806,7 +815,6 @@ a.brand { padding-top: 7px;}
     width: 31%;
     margin: 3% 1.1%;
   }
-
 
   #mock{ float: right; }
 
@@ -991,6 +999,18 @@ a.brand { padding-top: 7px;}
   .comment-section {
     width: 90%;
     margin: 7% 5%;
+  }
+
+  /* Footer Section */
+  .news-letter {text-align: left;}
+
+  footer .fa{ margin-right: 15px; }
+
+  footer h3{ font-size: 170%;}
+
+  #like-me{ 
+    padding-left: 9%; 
+    margin-bottom: 0;
   }
 
 }
@@ -1290,6 +1310,49 @@ a.brand { padding-top: 7px;}
     width: 90%;
     margin: 7% 5%;
   }
+
+  /* Footer Section */
+footer .col.col.span_1_of_3{ 
+  width: 90%;
+  margin-left: 5%;  
+  margin-top: 1%;
+}
+
+footer h3 {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.footer-nav{
+  width: 80%;
+  margin-left: 22%;
+}
+
+.footer-nav li{ width: 100%; }
+footer .fa{ margin-right: 7%; }
+
+.contact-number {padding-left: 6%;}
+.contact-number, .email{ font-size: 140%;}
+
+.footer-social-links {
+  width: 75%;
+  margin-left: 25%;
+}
+.footer-social-links li { width: 25%; }
+
+.news-letter {text-align: left;}
+
+footer .col.span_1_of_3 form {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 100%;
+}
+
+.news-letter, #like-me {text-align: center;}
+#like-me{ 
+  padding-left: 0; 
+  margin-bottom: 0;
+}
 
 }
 
