@@ -121,17 +121,16 @@ a:active{ color: #fff; }
 .btn-full:visited{
   color: #fff;
   margin-right: 15px;
-
   background-color: #666;
   border: 1px solid #666;
 }
 
 .btn-full:hover,
-.btn-full:active{ border: 1px solid #00aced; }
+.btn-full:active{ border: 1px solid #534f4f; }
 
 .btn-ctrl:hover,
 .btn-ctrl:active{ 
-  background-color: #00aced; 
+  background-color: #534f4f; 
   color: #fff;
 }
 
@@ -175,9 +174,7 @@ h2{
 }
 
 /* --------PARAGRAPH-------- */
-.long-copy{ 
-  line-height: 145%;
- }
+.long-copy{ line-height: 145%; }
 
 /* ========================= */
 /* ----------HEADER--------- */
@@ -219,18 +216,37 @@ a.brand{
   -ms-transition: background-color 0.2s, color 0.2s, border 0.2s;
   -o-transition: background-color 0.2s, color 0.2s, border 0.2s;
 }
+
 a.brand:hover { color: #fff;}
 
-/* Main nav */
-.main-nav{ float: right; }
+nav { 
+  box-shadow: rgba(0, 0, 0, 0.56) 5px 8px 10px -5px;
+  padding: 20px 0 0 0;
+}
 
-nav { box-shadow: rgba(0, 0, 0, 0.56) 5px 8px 10px -5px;}
+nav .group {
+  max-width: 1140px;
+  margin-top: 0;
+}
+
+.nav-blog{ 
+  background-color: #111010e5;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
 
 .active{
-  color: #fff;
-  border-bottom: 3px solid #fff;
-  padding-bottom: 15px;
+  border-bottom: 3px solid #00aced;
+  padding-bottom: 18px;
 }
+
+/* Main nav */
+.main-nav{ padding-top: 0; }
+
+.main-nav, .main-nav-blog  { float: right;}
+
+.main-nav-blog{ margin-top: 1px; }
 
 .main-nav li, .main-nav-blog li{
   display: inline-block;
@@ -242,7 +258,7 @@ nav { box-shadow: rgba(0, 0, 0, 0.56) 5px 8px 10px -5px;}
 .main-nav-blog li a:link,
 .main-nav-blog li a:visited{
   padding-bottom: 18px;
-  color: #fff; 
+  color: #00aced; 
   font-size: 90%;
   font-weight: 400;
   border-bottom: 3px solid transparent;
@@ -257,33 +273,14 @@ nav { box-shadow: rgba(0, 0, 0, 0.56) 5px 8px 10px -5px;}
 .main-nav li a:active,
 .main-nav-blog li a:hover,
 .main-nav-blog li a:active{
-  color: #00aced;
-  border-bottom: 3px solid #00aced;
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 21px;
 }
 
 .header-btn {
   width: 18%;
   margin: 5% 1%;
-}
-
-nav .group {
-  max-width: 1140px;
-  margin-top: 0;
-  padding-top: 18px;
-}
-
-.nav-blog .group{ padding: 13px 10px 0 10px; }
-
-.main-nav-blog{
-  float: right; 
-  margin-top: 1px;
-}
-
-.nav-blog{ 
-  background-color: #111010e5;
-  position: fixed;
-  width: 100%;
-  z-index: 9999;
 }
 
 /* Mobile nav */
@@ -297,37 +294,8 @@ nav .group {
 
 .mobile-nav-icon i{
   font-size: 200%;
-  color: #fff;
+  color: #00aced;
 }
-
-
-/* .brand {
-    margin-top: 5px;
-    padding-top: 0;
-    font-size: 120%;
-    margin-left: 6.5%;
-  }
-  
-  .main-nav {margin-top: 10px;}
-  .main-nav li a:link,
-  .main-nav li a:visited{ 
-    font-size: 100%;
-  }
-
-  .sticky .brand {
-    padding-top: 0;
-    margin-top: 0;
-  }
-
-  .sticky .main-nav li a:link,
-  .sticky .main-nav li a:visited{
-    color: #00aced;
-    font-size: 100%;
-  }
-
-  .active{
-    padding-bottom: 15px;
-  } */
 
 /* Sticky nav */
 .sticky{
@@ -344,7 +312,7 @@ nav .group {
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited{
   color: #00aced;
-  padding: 19px 0; 
+  padding: 21px 0; 
 }
 
 .sticky .main-nav li a:hover,
@@ -946,14 +914,14 @@ footer form .form-control::-ms-input-placeholder {
 
 /* Nav brand */
 #benkeyben{
-  color: #fff;
+  color: #00aced;
   transition: background-color 0.2s, color 0.2s, border 0.2s;
   -webkit-transition: background-color 0.2s, color 0.2s, border 0.2s;
   -moz-transition: background-color 0.2s, color 0.2s, border 0.2s;
   -ms-transition: background-color 0.2s, color 0.2s, border 0.2s;
   -o-transition: background-color 0.2s, color 0.2s, border 0.2s;
 }
-#benkeyben:hover{ color: #00aced;}
+#benkeyben:hover{ color: #fff;}
 
 #forgot-pw { color: #00aced}
 
