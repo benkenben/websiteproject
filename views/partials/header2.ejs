@@ -22,7 +22,7 @@
     <body>
         <nav class="nav-blog">
             <div class="group">
-                <a class="brand" id="benkeyben" href="/">Benkeyben</a>
+                <a class="brand" id="benkeyben" href="/">Ultimate Pasco</a>
                 <% if(currentUser){ %>
                     <ul><li><a href="#"><span class="crt-user"><%= currentUser.username %></span></a></li></ul>
                 <% } %>
@@ -34,7 +34,11 @@
                     <% } %>
                     <li> <a href="#" target="_blank" >Portfolio</a></li>
                     
-                        <li class="<%= typeof page !== 'undefined' && page === 'blogs/showBlog'? 'active' : '' %>"><a href="#">Blog</a></li>
+                    <% for (let i = 0; i < blogs.length; i++){ %>
+                        <% if( i === 0){ %>
+                        <li class="<%= typeof page !== 'undefined' && page === 'blogs/showBlog'? 'active' : '' %>"><a href="/becepastquestions/blogs/<%= blogs[i]._id %>">Blog</a></li>
+                        <% } %>
+                    <% } %>
 
                     <% if(!currentUser){ %>
                         <li class="<%= typeof page !== 'undefined' && page === 'login' ? 'active' : '' %>"><a href="/login" >Login<i class="fa fa-user-plus"></i></a></li>

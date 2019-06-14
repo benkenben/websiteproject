@@ -105,30 +105,47 @@
         <h2>SAMPLE QUIZ</h2>
     </div>
     <div class="container">
-        <div class="left-column">
+        <!-- <div class="left-column">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus animi architecto magnam voluptatem? Magnam sunt corporis culpa labore. Sint necessitatibus totam molestiae minima voluptates neque animi iure dolorum veniam rerum, ipsa quibusdam. Magnam aliquid maxime odit laboriosam doloremque? Odio rem dignissimos aliquam eius minima et accusantium corrupti minus, vero libero, ipsam suscipit temporibus,
-        </div>
+        </div> -->
         <div class="middle-column">
             <div class="group button-control">
                 <div class="col span_1_of_4 control-items">
-                    <select name="" id="clock">
-                        <option value="1">30 min</option>
-                        <option value="2">1 hr</option>
-                        <option value="3">1:30min</option>
-                        <option value="4">2 hrs</option>
+                    <select  class="chooseTimer" id="clock">
+                        <option value="thirty" selected>30 min</option>
+                        <option value="fortyFive">45 min</option>
+                        <option value="oneHour">1 hour</option>
+                        <option value="oneHalf">1h:30min</option>
+                        <option value="oneQuarter">1h:45min</option>
+                        <option value="twoHours">2 hours</option>
                     </select> 
                 </div>
+                <!-- <button class="set__time">Start Timing</button> -->
+                <!-- <button type="reset" class="reset">Reset Time</button> -->
+                <!-- <p id="stopWatch"></p>
+                <p class="score"></p> -->
+                <!-- <p class="topic">1991 - OBJECTIVE TEST</p> -->
+                <!-- <input type="button" class="retake" value="Retake Quiz" onClick="document.location.reload(true)"> -->
                 <div class="col span_1_of_4 control-items">
-                    <a href="#" class="btn-ctrl btn-full">Reset</a>
+                    <!-- <a href="#" class="btn-ctrl btn-full">Reset</a> -->
+                <a href="#" class="retake btn-ctrl btn-full" onClick="document.location.reload(true)">Retake Quiz</a>
                 </div>
                 <div class="col span_1_of_4 control-items">
-                    <a href="#" class="btn-ctrl btn-full">Set Time</a>
+                    <a href="#" class="btn-ctrl btn-full set__time">Start Time</a>
                 </div>
                 <div class="col span_1_of_4 control-items">
-                    <a href="#" class="btn-ctrl btn-full">Stop</a>
+                    <a href="#" class="btn-ctrl btn-full reset">Stop</a>
                 </div> 
             </div>
             <div class="group">
+                <div class="group">
+                    <div class="col span_1_of_2">
+                        <p id="stopWatch"></p>
+                    </div>
+                    <div class="col span_1_of_2">
+                        <p class="score"></p>
+                    </div>
+                </div>
                 <h3>B.E.C.E <span>English Language </span><span> 2019 (Objectives)</span></h3>
             </div>
             <div class="quiz-sample js--wp-1">
@@ -179,9 +196,9 @@
                 </div>
             </div>
         </div>
-        <div class="right-column">
+        <!-- <div class="right-column">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus quas quaerat suscipit sapiente alias nulla sit illum et voluptatum, fuga architecto aliquam! Nulla nam voluptas dolore excepturi in? Dignissimos obcaecati temporibus provident voluptates sint. Delectus blanditiis fugit minima quia eius repellat doloremque provident ducimus itaque nesciunt tempore natus sequi, libero exercitationem voluptatem nemo est, incidunt 
-        </div>
+        </div> -->
     </div>
 </section>
 
@@ -215,83 +232,68 @@
         <div class="group">
             <h3>Primary Syllabus</h3>
         </div>
-        <ul class="syllabuses">
-            <li><a href="#">Ghanaian Language</a></li>
-            <li><a href="#">English Language</a></li>
-            <li><a href="#">Citizenship Edu</a></li>
-            <li><a href="#">Natural Science</a></li>
-            <li><a href="#">Mathematics</a></li>
-            <li><a href="#">Creative Art</a></li>
-            <li><a href="#">I. C. T</a></li>
-            <li><a href="#">R.M.E</a></li>
-        </ul>
+            <ul class="syllabuses">
+                <li><a href="#">Information & Comm Tech</a></li>
+                <li><a href="#">Ghanaian Language</a></li>
+                <li><a href="#">Mathematics</a></li>
+                <li><a href="#">English Language</a></li>
+                <li><a href="#">Citizenship Education</a></li>
+                <li><a href="#">Science</a></li>
+                <li><a href="#">Creative Art</a></li>
+                <li><a href="#">Religious & Moral Education</a></li>
+            </ul>
         </div>
         <div class="col span_1_of_5 box">
             <div class="group">
                 <h3>J.H.S Syllabus</h3>
             </div>
             <ul class="syllabuses">
-            <li><a href="#">Ghanaian Language</a></li>
-            <li><a href="#">Integrated Science</a></li>
-            <li><a href="#">English Language</a></li>
-            <li><a href="#">Social Studies</a></li>
-            <li><a href="#">Mathematics</a></li>
-            <li><a href="#">I. C. T</a></li>
-            <li><a href="#">B.D.T</a></li>
-            <li><a href="#">R.M.E</a></li>
+                <li><a href="#">Basic Design & Tech</a></li>
+                <li><a href="#">Ghanaian Language</a></li>
+                <li><a href="#">Mathematics</a></li>
+                <li><a href="#">English Language</a></li>
+                <li><a href="#">Information & Comm Tech</a></li>
+                <li><a href="#">Integrated Science</a></li>
+                <li><a href="#">Social Studies</a></li>
+                <li><a href="#">Religious & Moral Education</a></li>
             </ul>
         </div>
-        <!-- <div class="col span_1_of_5 box">
-            <div class="group">
-                <h3>Lesson Notes</h3>
-            </div>
-            <ul class="lesson-notes">
-            <li><a href="#">Ghanaian Language</a></li>
-            <li><a href="#">Integrated Science </a></li>
-            <li><a href="#">English Language </a></li>
-            <li><a href="#">Social Studies </a></li>
-            <li><a href="#">Mathematics </a></li>
-            <li><a href="#">I. C. T </a></li>
-            <li><a href="#">B.D.T </a></li>
-            <li><a href="#">R.M.E </a></li>
-            </ul>
-        </div> -->
         <div class="col span_1_of_5 box" id="lesson-note">
             <div class="group">
                 <h3>Lesson Notes</h3>
             </div>
             <button class="accordion">TERM 1 EXAMS</button>
             <ul class="accordion-content">
-                <li><a href="#">ENG 2</a></li>
-                <li><a href="#">ENG 1</a></li>
-                <li><a href="#">MATHS 1</a></li>
-                <li><a href="#">MATHS 2</a></li>
-                <li><a href="#">INT SCI 2</a></li>
-                <li><a href="#">INT SCI 1</a></li>
-                <li><a href="#">SOC STUD 1</a></li>
-                <li><a href="#">SOC STUD 2</a></li>
+                <li><a href="#">ENGLISH LAN JHS 2</a></li>
+                <li><a href="#">ENGLISH LAN JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 2</a></li>
+                <li><a href="#">INT SCIENCE JHS 1</a></li>
+                <li><a href="#">INT SCIENCE JHS 2</a></li>
+                <li><a href="#">SOCIAL STD JHS 1</a></li>
+                <li><a href="#">SOCIAL STD JHS 2</a></li>
             </ul>
             <button class="accordion">TERM 2 EXAMS</button>
             <ul class="accordion-content">
-                <li><a href="#">ENG 2</a></li>
-                <li><a href="#">ENG 1</a></li>
-                <li><a href="#">MATHS 1</a></li>
-                <li><a href="#">MATHS 2</a></li>
-                <li><a href="#">INT SCI 2</a></li>
-                <li><a href="#">INT SCI 1</a></li>
-                <li><a href="#">SOC STUD 1</a></li>
-                <li><a href="#">SOC STUD 1</a></li>
+                <li><a href="#">ENGLISH LAN JHS 2</a></li>
+                <li><a href="#">ENGLISH LAN JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 2</a></li>
+                <li><a href="#">INT SCIENCE JHS 1</a></li>
+                <li><a href="#">INT SCIENCE JHS 2</a></li>
+                <li><a href="#">SOCIAL STD JHS 1</a></li>
+                <li><a href="#">SOCIAL STD JHS 1</a></li>
             </ul>
             <button class="accordion">TERM 3 EXAMS</button>
             <ul class="accordion-content">
-                <li><a href="#">ENG 2</a></li>
-                <li><a href="#">ENG 1</a></li>
-                <li><a href="#">MATHS 1</a></li>
-                <li><a href="#">MATHS 2</a></li>
-                <li><a href="#">INT SCI 2</a></li>
-                <li><a href="#">INT SCI 1</a></li>
-                <li><a href="#">SOC STUD 1</a></li>
-                <li><a href="#">SOC STUD 1</a></li>
+                <li><a href="#">ENGLISH LAN JHS 2</a></li>
+                <li><a href="#">ENGLISH LAN JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 2</a></li>
+                <li><a href="#">INT SCIENCE JHS 1</a></li>
+                <li><a href="#">INT SCIENCE JHS 2</a></li>
+                <li><a href="#">SOCIAL STD JHS 1</a></li>
+                <li><a href="#">SOCIAL STD JHS 1</a></li>
             </ul>
         </div>
         <div class="col span_1_of_5 box" id="terminal-exams">
@@ -300,36 +302,36 @@
             </div>
             <button class="accordion">TERM 1 EXAMS</button>
             <ul class="accordion-content">
-                <li><a href="#">ENG 2</a></li>
-                <li><a href="#">ENG 1</a></li>
-                <li><a href="#">MATHS 1</a></li>
-                <li><a href="#">MATHS 2</a></li>
-                <li><a href="#">INT SCI 2</a></li>
-                <li><a href="#">INT SCI 1</a></li>
-                <li><a href="#">SOC STUD 1</a></li>
-                <li><a href="#">SOC STUD 2</a></li>
+                <li><a href="#">ENGLISH LAN JHS 2</a></li>
+                <li><a href="#">ENGLISH LAN JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 2</a></li>
+                <li><a href="#">INT SCIENCE JHS 1</a></li>
+                <li><a href="#">INT SCIENCE JHS 2</a></li>
+                <li><a href="#">SOCIAL STD JHS 1</a></li>
+                <li><a href="#">SOCIAL STD JHS 2</a></li>
             </ul>
             <button class="accordion">TERM 2 EXAMS</button>
             <ul class="accordion-content">
-                <li><a href="#">ENG 2</a></li>
-                <li><a href="#">ENG 1</a></li>
-                <li><a href="#">MATHS 1</a></li>
-                <li><a href="#">MATHS 2</a></li>
-                <li><a href="#">INT SCI 2</a></li>
-                <li><a href="#">INT SCI 1</a></li>
-                <li><a href="#">SOC STUD 1</a></li>
-                <li><a href="#">SOC STUD 1</a></li>
+                <li><a href="#">ENGLISH LAN JHS 2</a></li>
+                <li><a href="#">ENGLISH LAN JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 2</a></li>
+                <li><a href="#">INT SCIENCE JHS 1</a></li>
+                <li><a href="#">INT SCIENCE JHS 2</a></li>
+                <li><a href="#">SOCIAL STD JHS 1</a></li>
+                <li><a href="#">SOCIAL STD JHS 1</a></li>
             </ul>
             <button class="accordion">TERM 3 EXAMS</button>
             <ul class="accordion-content">
-                <li><a href="#">ENG 2</a></li>
-                <li><a href="#">ENG 1</a></li>
-                <li><a href="#">MATHS 1</a></li>
-                <li><a href="#">MATHS 2</a></li>
-                <li><a href="#">INT SCI 2</a></li>
-                <li><a href="#">INT SCI 1</a></li>
-                <li><a href="#">SOC STUD 1</a></li>
-                <li><a href="#">SOC STUD 1</a></li>
+                <li><a href="#">ENGLISH LAN JHS 2</a></li>
+                <li><a href="#">ENGLISH LAN JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 2</a></li>
+                <li><a href="#">INT SCIENCE JHS 1</a></li>
+                <li><a href="#">INT SCIENCE JHS 2</a></li>
+                <li><a href="#">SOCIAL STD JHS 1</a></li>
+                <li><a href="#">SOCIAL STD JHS 1</a></li>
             </ul>
         </div>
         <div class="col span_1_of_5 box" id="mock-exams">
@@ -338,36 +340,36 @@
             </div>
             <button class="accordion">1ST MOCK</button>
             <ul class="accordion-content">
-                <li><a href="#">ENG 2</a></li>
-                <li><a href="#">ENG 1</a></li>
-                <li><a href="#">MATHS 1</a></li>
-                <li><a href="#">MATHS 2</a></li>
-                <li><a href="#">INT SCI 2</a></li>
-                <li><a href="#">INT SCI 1</a></li>
-                <li><a href="#">SOC STUD 1</a></li>
-                <li><a href="#">SOC STUD 2</a></li>
+                <li><a href="#">ENGLISH LAN JHS 2</a></li>
+                <li><a href="#">ENGLISH LAN JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 2</a></li>
+                <li><a href="#">INT SCIENCE JHS 1</a></li>
+                <li><a href="#">INT SCIENCE JHS 2</a></li>
+                <li><a href="#">SOCIAL STD JHS 1</a></li>
+                <li><a href="#">SOCIAL STD JHS 2</a></li>
             </ul>
             <button class="accordion">2ND MOCK</button>
             <ul class="accordion-content">
-                <li><a href="#">ENG 2</a></li>
-                <li><a href="#">ENG 1</a></li>
-                <li><a href="#">MATHS 1</a></li>
-                <li><a href="#">MATHS 2</a></li>
-                <li><a href="#">INT SCI 2</a></li>
-                <li><a href="#">INT SCI 1</a></li>
-                <li><a href="#">SOC STUD 1</a></li>
-                <li><a href="#">SOC STUD 1</a></li>
+                <li><a href="#">ENGLISH LAN JHS 2</a></li>
+                <li><a href="#">ENGLISH LAN JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 2</a></li>
+                <li><a href="#">INT SCIENCE JHS 1</a></li>
+                <li><a href="#">INT SCIENCE JHS 2</a></li>
+                <li><a href="#">SOCIAL STD JHS 1</a></li>
+                <li><a href="#">SOCIAL STD JHS 1</a></li>
             </ul>
             <button class="accordion">3RD MOCK</button>
             <ul class="accordion-content">
-                <li><a href="#">ENG 2</a></li>
-                <li><a href="#">ENG 1</a></li>
-                <li><a href="#">MATHS 1</a></li>
-                <li><a href="#">MATHS 2</a></li>
-                <li><a href="#">INT SCI 2</a></li>
-                <li><a href="#">INT SCI 1</a></li>
-                <li><a href="#">SOC STUD 1</a></li>
-                <li><a href="#">SOC STUD 1</a></li>
+                <li><a href="#">ENGLISH LAN JHS 2</a></li>
+                <li><a href="#">ENGLISH LAN JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 1</a></li>
+                <li><a href="#">MATHEMATICS JHS 2</a></li>
+                <li><a href="#">INT SCIENCE JHS 1</a></li>
+                <li><a href="#">INT SCIENCE JHS 2</a></li>
+                <li><a href="#">SOCIAL STD JHS 1</a></li>
+                <li><a href="#">SOCIAL STD JHS 1</a></li>
             </ul>
         </div>
     </div>

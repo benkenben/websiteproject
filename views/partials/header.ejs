@@ -23,10 +23,14 @@
     <header>
         <nav>
           <div class="group">
-              <a class="brand" href="/">Benkeyben</a>
-              <% if(currentUser){ %>
-                <ul><li><a href="#"><span class="crt-user"><%= currentUser.username %></span></a></li></ul>
-              <% } %>
+              <div class="brand--crt--user">
+                <a class="brand" href="/">Ultimate Pasco</a>
+                <% if(currentUser){ %>
+                <ul>
+                    <li><a href="#"><span class="crt-user"><%= currentUser.username %></span></a></li>
+                </ul>
+                <% } %>
+              </div>
               <ul class="main-nav js--main-nav">
                   <li class="<%= typeof page !== 'undefined' && page === 'blogs' ? 'active' : '' %>"><a href="/becepastquestions">Home</a></li>
   
