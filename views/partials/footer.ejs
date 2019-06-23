@@ -46,21 +46,29 @@
       </div>
       <ul class="syllabuses">
         <li>
-          <a href="/stylesheets/imgs/bdtSyllabus_JHS_2012.pdf" title="Basic Design and Technology 2012" download >Basic Design & Tech</a></li>
+          <a href="/stylesheets/imgs/bdtSyllabus_JHS_2012.pdf" title="Basic Design and Technology 2012" download >Basic Design & Tech</a>
+        </li>
         <li>
-          <a href="/stylesheets/imgs/ghanaLangSyllabus_JHS_2012.pdf" title="Ghana Language 2012" download >Ghanaian Language</a></li>
+          <a href="/stylesheets/imgs/ghanaLangSyllabus_JHS_2012.pdf" title="Ghana Language 2012" download >Ghanaian Language</a>
+        </li>
         <li>
-          <a href="/stylesheets/imgs/mathsSyllabus_JHS_2012.pdf" title="Mathematics 2012" download >Mathematics</a></li>
+          <a href="/stylesheets/imgs/mathsSyllabus_JHS_2012.pdf" title="Mathematics 2012" download >Mathematics</a>
+        </li>
         <li>
-          <a href="/stylesheets/imgs/englishSyllabus_JHS_2012.pdf" title="English Language 2012" download >English Language</a></li>
+          <a href="/stylesheets/imgs/englishSyllabus_JHS_2012.pdf" title="English Language 2012" download >English Language</a>
+        </li>
         <li>
-          <a href="/stylesheets/imgs/ictSyllabus_JHS.pdf" title="ICT" download >Information & Comm Tech</a></li>
+          <a href="/stylesheets/imgs/ictSyllabus_JHS.pdf" title="ICT" download >Information & Comm Tech</a>
+        </li>
         <li>
-          <a href="/stylesheets/imgs/IntScienceSyllabus_JHS_2012.pdf" title="Integrated Science 2012" download Integrated Science</a></li>
+          <a href="/stylesheets/imgs/IntScienceSyllabus_JHS_2012.pdf" title="Integrated Science 2012" download> Integrated Science</a>
+          </li>
         <li>
-          <a href="/stylesheets/imgs/socialStudiesSyllabus_JHS.pdf" title="Social Studies" download >Social Studies</a></li>
+          <a href="/stylesheets/imgs/socialStudiesSyllabus_JHS.pdf" title="Social Studies" download >Social Studies</a>
+        </li>
         <li>
-          <a href="/stylesheets/imgs/rmeSyllabus_JHS.pdf" title="Religious and Moral Education" download >Religious & Moral Education</a></li>
+          <a href="/stylesheets/imgs/rmeSyllabus_JHS.pdf" title="Religious and Moral Education" download >Religious & Moral Education</a>
+        </li>
       </ul>
     </div>
     <div class="col span_1_of_5 box" id="lesson-note">
@@ -69,36 +77,21 @@
       </div>
       <button class="accordion">TERM 1 EXAMS</button>
       <ul class="accordion-content">
-        <li><a href="#">ENGLISH LAN JHS 2</a></li>
-        <li><a href="#">ENGLISH LAN JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 2</a></li>
         <li><a href="#">INT SCIENCE JHS 1</a></li>
         <li><a href="#">INT SCIENCE JHS 2</a></li>
-        <li><a href="#">SOCIAL STD JHS 1</a></li>
-        <li><a href="#">SOCIAL STD JHS 2</a></li>
+        <li><a href="#">INT SCIENCE JHS 3</a></li>
       </ul>
       <button class="accordion">TERM 2 EXAMS</button>
       <ul class="accordion-content">
-        <li><a href="#">ENGLISH LAN JHS 2</a></li>
-        <li><a href="#">ENGLISH LAN JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 2</a></li>
         <li><a href="#">INT SCIENCE JHS 1</a></li>
         <li><a href="#">INT SCIENCE JHS 2</a></li>
-        <li><a href="#">SOCIAL STD JHS 1</a></li>
-        <li><a href="#">SOCIAL STD JHS 1</a></li>
-      </ul>
+        <li><a href="#">INT SCIENCE JHS 3</a></li>
+       </ul>
       <button class="accordion">TERM 3 EXAMS</button>
       <ul class="accordion-content">
-        <li><a href="#">ENGLISH LAN JHS 2</a></li>
-        <li><a href="#">ENGLISH LAN JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 2</a></li>
         <li><a href="#">INT SCIENCE JHS 1</a></li>
         <li><a href="#">INT SCIENCE JHS 2</a></li>
-        <li><a href="#">SOCIAL STD JHS 1</a></li>
-        <li><a href="#">SOCIAL STD JHS 1</a></li>
+        <li><a href="#">INT SCIENCE JHS 3</a></li>
       </ul>
     </div>
     <div class="col span_1_of_5 box" id="terminal-exams">
@@ -107,36 +100,25 @@
       </div>
       <button class="accordion">TERM 1 EXAMS</button>
       <ul class="accordion-content">
-        <li><a href="#">ENGLISH LAN JHS 2</a></li>
-        <li><a href="#">ENGLISH LAN JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 2</a></li>
-        <li><a href="#">INT SCIENCE JHS 1</a></li>
-        <li><a href="#">INT SCIENCE JHS 2</a></li>
-        <li><a href="#">SOCIAL STD JHS 1</a></li>
-        <li><a href="#">SOCIAL STD JHS 2</a></li>
+       <% if(currentUser){ %>
+          <li><a href="/stylesheets/imgs/int_Science_JHS_1.pdf" download>INT SCIENCE JHS 1</a></li>
+          <li><a href="/stylesheets/imgs/int_Science_JHS_2.pdf" download>INT SCIENCE JHS 2</a></li>
+          <li><a href="/stylesheets/imgs/int_Science_JHS_3.pdf" download>INT SCIENCE JHS 3</a></li>
+        <% } else{ %>
+          <li><a href="/stylesheets/imgs/int_Science_JHS_1.pdf" download>INT SCIENCE JHS 1</a></li>
+          <li><a href="/login">INT SCIENCE JHS 2</a></li>
+          <li><a href="/login">INT SCIENCE JHS 3</a></li>
+        <% } %>
       </ul>
       <button class="accordion">TERM 2 EXAMS</button>
       <ul class="accordion-content">
-        <li><a href="#">ENGLISH LAN JHS 2</a></li>
-        <li><a href="#">ENGLISH LAN JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 2</a></li>
         <li><a href="#">INT SCIENCE JHS 1</a></li>
         <li><a href="#">INT SCIENCE JHS 2</a></li>
-        <li><a href="#">SOCIAL STD JHS 1</a></li>
-        <li><a href="#">SOCIAL STD JHS 1</a></li>
       </ul>
       <button class="accordion">TERM 3 EXAMS</button>
       <ul class="accordion-content">
-        <li><a href="#">ENGLISH LAN JHS 2</a></li>
-        <li><a href="#">ENGLISH LAN JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 2</a></li>
         <li><a href="#">INT SCIENCE JHS 1</a></li>
         <li><a href="#">INT SCIENCE JHS 2</a></li>
-        <li><a href="#">SOCIAL STD JHS 1</a></li>
-        <li><a href="#">SOCIAL STD JHS 1</a></li>
       </ul>
     </div>
     <div class="col span_1_of_5 box" id="mock-exams">
@@ -145,36 +127,18 @@
       </div>
       <button class="accordion">1ST MOCK</button>
       <ul class="accordion-content">
-        <li><a href="#">ENGLISH LAN JHS 2</a></li>
-        <li><a href="#">ENGLISH LAN JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 2</a></li>
-        <li><a href="#">INT SCIENCE JHS 1</a></li>
-        <li><a href="#">INT SCIENCE JHS 2</a></li>
-        <li><a href="#">SOCIAL STD JHS 1</a></li>
-        <li><a href="#">SOCIAL STD JHS 2</a></li>
-      </ul>
+        <li><a href="#">INT SCIENCE JHS 3</a></li>
+        <li><a href="#">INT SCIENCE JHS 3</a></li>
+       </ul>
       <button class="accordion">2ND MOCK</button>
       <ul class="accordion-content">
-        <li><a href="#">ENGLISH LAN JHS 2</a></li>
-        <li><a href="#">ENGLISH LAN JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 2</a></li>
         <li><a href="#">INT SCIENCE JHS 1</a></li>
         <li><a href="#">INT SCIENCE JHS 2</a></li>
-        <li><a href="#">SOCIAL STD JHS 1</a></li>
-        <li><a href="#">SOCIAL STD JHS 1</a></li>
-      </ul>
+       </ul>
       <button class="accordion">3RD MOCK</button>
       <ul class="accordion-content">
-        <li><a href="#">ENGLISH LAN JHS 2</a></li>
-        <li><a href="#">ENGLISH LAN JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 1</a></li>
-        <li><a href="#">MATHEMATICS JHS 2</a></li>
         <li><a href="#">INT SCIENCE JHS 1</a></li>
         <li><a href="#">INT SCIENCE JHS 2</a></li>
-        <li><a href="#">SOCIAL STD JHS 1</a></li>
-        <li><a href="#">SOCIAL STD JHS 1</a></li>
       </ul>
     </div>
   </div>

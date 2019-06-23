@@ -1183,9 +1183,14 @@ footer form .form-control::-ms-input-placeholder {
   color: #fff;
 }
 
-#forgot-pw {
+#forgot-pw, #sign-up {
   color: #00aced
 }
+
+#forgot-pw{
+  float: right;
+}
+#sign-up:hover{color: #00aced;}
 
 /* =========================== */
 
