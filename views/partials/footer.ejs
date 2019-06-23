@@ -1,3 +1,176 @@
+<section class="section-articles js--wp-3">
+  <div class="group" id="Blog">
+    <h2>Popular Post</h2>
+  </div>
+  <div class="group">
+    <% blogs.forEach(function(blog){ %>
+    <div class="col span_1_of_3 box">
+      <a href="/becepastquestions/blogs/<%= blog._id %>"><img src="<%=blog.image %>" alt="article-image"></a>
+      <div class="article-content">
+        <div class="group">
+          <h3><a href="/becepastquestions/blogs/<%= blog._id %>" target="_blank"><%=blog.title%></a></h3>
+        </div>
+        <p class="long-copy">
+          <a class="blog-substring" href="/becepastquestions/blogs/<%=blog._id %>"
+            target="_blank"><%= blog.body.substring(0, 100)%> ... <span class="read-more">Read More</span></a>
+        </p>
+      </div>
+    </div>
+    <% }) %>
+  </div>
+</section>
+
+<section class="section-downloads js--section-downloads">
+  <div class="group">
+    <h2>DOWNLOAD SYLLABUSES, EXAMS QUESTIONS AND LESSON NOTES</h2>
+  </div>
+  <div class="group js--wp-4">
+    <div class="col span_1_of_5 box">
+      <div class="group">
+        <h3>Primary Syllabus</h3>
+      </div>
+      <ul class="syllabuses">
+        <li><a href="#">Information & Comm Tech</a></li>
+        <li><a href="#">Ghanaian Language</a></li>
+        <li><a href="#">Mathematics</a></li>
+        <li><a href="#">English Language</a></li>
+        <li><a href="#">Citizenship Edu</a></li>
+        <li><a href="#">Science</a></li>
+        <li><a href="#">Creative Art</a></li>
+        <li><a href="#">Religious & Moral Education</a></li>
+      </ul>
+    </div>
+    <div class="col span_1_of_5 box">
+      <div class="group">
+        <h3>J.H.S Syllabus</h3>
+      </div>
+      <ul class="syllabuses">
+        <li><a href="#">Basic Design & Tech</a></li>
+        <li><a href="#">Ghanaian Language</a></li>
+        <li><a href="#">Mathematics</a></li>
+        <li><a href="#">English Language</a></li>
+        <li><a href="#">Information & Comm Tech</a></li>
+        <li><a href="#">Integrated Science</a></li>
+        <li><a href="#">Social Studies</a></li>
+        <li><a href="#">Religious & Moral Education</a></li>
+      </ul>
+    </div>
+    <div class="col span_1_of_5 box" id="lesson-note">
+      <div class="group">
+        <h3>Lesson Notes</h3>
+      </div>
+      <button class="accordion">TERM 1 EXAMS</button>
+      <ul class="accordion-content">
+        <li><a href="#">ENGLISH LAN JHS 2</a></li>
+        <li><a href="#">ENGLISH LAN JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 2</a></li>
+        <li><a href="#">INT SCIENCE JHS 1</a></li>
+        <li><a href="#">INT SCIENCE JHS 2</a></li>
+        <li><a href="#">SOCIAL STD JHS 1</a></li>
+        <li><a href="#">SOCIAL STD JHS 2</a></li>
+      </ul>
+      <button class="accordion">TERM 2 EXAMS</button>
+      <ul class="accordion-content">
+        <li><a href="#">ENGLISH LAN JHS 2</a></li>
+        <li><a href="#">ENGLISH LAN JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 2</a></li>
+        <li><a href="#">INT SCIENCE JHS 1</a></li>
+        <li><a href="#">INT SCIENCE JHS 2</a></li>
+        <li><a href="#">SOCIAL STD JHS 1</a></li>
+        <li><a href="#">SOCIAL STD JHS 1</a></li>
+      </ul>
+      <button class="accordion">TERM 3 EXAMS</button>
+      <ul class="accordion-content">
+        <li><a href="#">ENGLISH LAN JHS 2</a></li>
+        <li><a href="#">ENGLISH LAN JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 2</a></li>
+        <li><a href="#">INT SCIENCE JHS 1</a></li>
+        <li><a href="#">INT SCIENCE JHS 2</a></li>
+        <li><a href="#">SOCIAL STD JHS 1</a></li>
+        <li><a href="#">SOCIAL STD JHS 1</a></li>
+      </ul>
+    </div>
+    <div class="col span_1_of_5 box" id="terminal-exams">
+      <div class="group">
+        <h3>J.H.S Exams </h3>
+      </div>
+      <button class="accordion">TERM 1 EXAMS</button>
+      <ul class="accordion-content">
+        <li><a href="#">ENGLISH LAN JHS 2</a></li>
+        <li><a href="#">ENGLISH LAN JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 2</a></li>
+        <li><a href="#">INT SCIENCE JHS 1</a></li>
+        <li><a href="#">INT SCIENCE JHS 2</a></li>
+        <li><a href="#">SOCIAL STD JHS 1</a></li>
+        <li><a href="#">SOCIAL STD JHS 2</a></li>
+      </ul>
+      <button class="accordion">TERM 2 EXAMS</button>
+      <ul class="accordion-content">
+        <li><a href="#">ENGLISH LAN JHS 2</a></li>
+        <li><a href="#">ENGLISH LAN JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 2</a></li>
+        <li><a href="#">INT SCIENCE JHS 1</a></li>
+        <li><a href="#">INT SCIENCE JHS 2</a></li>
+        <li><a href="#">SOCIAL STD JHS 1</a></li>
+        <li><a href="#">SOCIAL STD JHS 1</a></li>
+      </ul>
+      <button class="accordion">TERM 3 EXAMS</button>
+      <ul class="accordion-content">
+        <li><a href="#">ENGLISH LAN JHS 2</a></li>
+        <li><a href="#">ENGLISH LAN JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 2</a></li>
+        <li><a href="#">INT SCIENCE JHS 1</a></li>
+        <li><a href="#">INT SCIENCE JHS 2</a></li>
+        <li><a href="#">SOCIAL STD JHS 1</a></li>
+        <li><a href="#">SOCIAL STD JHS 1</a></li>
+      </ul>
+    </div>
+    <div class="col span_1_of_5 box" id="mock-exams">
+      <div class="group">
+        <h3>Mock Exams</h3>
+      </div>
+      <button class="accordion">1ST MOCK</button>
+      <ul class="accordion-content">
+        <li><a href="#">ENGLISH LAN JHS 2</a></li>
+        <li><a href="#">ENGLISH LAN JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 2</a></li>
+        <li><a href="#">INT SCIENCE JHS 1</a></li>
+        <li><a href="#">INT SCIENCE JHS 2</a></li>
+        <li><a href="#">SOCIAL STD JHS 1</a></li>
+        <li><a href="#">SOCIAL STD JHS 2</a></li>
+      </ul>
+      <button class="accordion">2ND MOCK</button>
+      <ul class="accordion-content">
+        <li><a href="#">ENGLISH LAN JHS 2</a></li>
+        <li><a href="#">ENGLISH LAN JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 2</a></li>
+        <li><a href="#">INT SCIENCE JHS 1</a></li>
+        <li><a href="#">INT SCIENCE JHS 2</a></li>
+        <li><a href="#">SOCIAL STD JHS 1</a></li>
+        <li><a href="#">SOCIAL STD JHS 1</a></li>
+      </ul>
+      <button class="accordion">3RD MOCK</button>
+      <ul class="accordion-content">
+        <li><a href="#">ENGLISH LAN JHS 2</a></li>
+        <li><a href="#">ENGLISH LAN JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 1</a></li>
+        <li><a href="#">MATHEMATICS JHS 2</a></li>
+        <li><a href="#">INT SCIENCE JHS 1</a></li>
+        <li><a href="#">INT SCIENCE JHS 2</a></li>
+        <li><a href="#">SOCIAL STD JHS 1</a></li>
+        <li><a href="#">SOCIAL STD JHS 1</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
 <footer>
     <div class="group">
        <div class="col span_1_of_3">

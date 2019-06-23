@@ -96,7 +96,7 @@
   .section-subjects h2 {
     margin-bottom: 30px;
   }
-  .section-subjects .btn-qs {
+  .section-subjects .btn-qs, .quiz-sample .btn-qs {
     width: 45%;
     margin: 10px 27.5% 55px 27.5%;
     font-size: 90%;
@@ -128,7 +128,7 @@
     padding: 6px 0;
     font-size: 90%;
   }
-  ;
+  /* ;
   .quiz-sample {
     font-size: 130%;
   }
@@ -143,6 +143,81 @@
   .field p {
     margin-top: 10px;
     font-size: 95%;
+  } */
+  .quiz-sample {
+    font-size: 130%;
+    padding-top: 0;
+  }
+  .quiz-sample .btn-qs {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .quiz-sample label {
+    font-size: 110%;
+    padding-left: 4%;
+  }
+  .quiz-sample label input[type="radio"] {
+    margin: 1.80% 1% 0 0;
+  }
+  .field {
+    margin-top: 15px;
+  }
+  .field button {
+    margin: 0 7%;
+  }
+  .field p {
+    font-size: 110%;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .field label span {
+    padding-left: 3%;
+  }
+  .field .extra-info {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .theory-questions, .theory-solutions {
+    font-size: 110%;
+  }
+  .theory-questions h3, .theory-solutions h3 {
+    padding-top: 30px;
+    font-size: 100%;
+  }
+  .theory-questions img, .theory-solutions img {
+    padding: 10px 0 0 0;
+  }
+  .part_2 {
+    width: 100%;
+  }
+  .major-questions-num {
+    width: 10%;
+  }
+  .major-questions-items {
+    width: 85%;
+  }
+  .major-questions-items li {
+    padding-left: 0;
+  }
+  .major-questions-items .list-items li {
+    padding-left: 7%;
+    padding-bottom: 1%;
+  }
+  .list-numerals, .objective-question-num {
+    width: 5%;
+  }
+  .objective-question {
+    padding-left: 2%;
+  }
+  .list-items, .objective-question {
+    width: 95%;
+  }
+  .list-items, .list-numerals, .objective-question, .major-questions-num, .major-questions-items, .objective-question-num {
+    float: left;
+  }
+  .field .extra-info {
+    padding-top: 0;
+    margin-top: 0;
   }
   .article-content h3 {
     font-size: 110%;
@@ -159,55 +234,6 @@
     font-size: 160%;
     margin-bottom: 0;
   }
-  /* .section-downloads h3 {
-    padding: 0 0 6% 0;
-    text-align: center;
-    font-size: 125%;
-    font-weight: 500;
-    margin-top: 0;
-  }
-  .section-downloads .col.span_1_of_5 {
-    width: 33%;
-    margin: 3% 0 0 0;
-    padding-left: 0;
-    padding-right: 0;
-    ;
-  }
-  #terminal-exams, #mock-exams {
-    width: 40%;
-    margin: 3% 1% 3% 6%;
-  }
-  #terminal-exams h3, #mock-exams h3 {
-    margin-bottom: 15px;
-    padding: 15px 0;
-  }
-  .syllabuses li {
-    margin: 0 0 1% 15%;
-    font-size: 110%;
-    font-weight: 600;
-  }
-  .section-downloads button.accordion {
-    margin: 0 0 5% 0;
-  }
-  .section-downloads button.accordion, #lesson-note button.accordion {
-    width: 100%;
-    font-size: 100%;
-    font-weight: 500;
-    padding: 4% 7%;
-  }
-  #lesson-note button.accordion {
-    margin: 3% 0 0 0;
-  }
-  .section-downloads .accordion-content li {
-    width: 85%;
-    margin: 1% 6%;
-  }
-  .section-downloads h3:after {
-    width: 55%;
-  }
-  #terminal-exams h3:after, #mock-exams h3:after {
-    width: 35%;
-  } */
   .section-downloads h3 {
     text-align: center;
     font-size: 125%;
@@ -373,7 +399,7 @@
     width: 48%;
     margin: 0 1%;
   }
-  .section-subjects .btn-qs {
+  .section-subjects .btn-qs, .quiz-sample .btn-qs {
     width: 45%;
     margin: 0 27.5% 45px 27.5%;
     font-size: 90%;
@@ -412,7 +438,7 @@
     padding: 5px 0;
     font-size: 100%;
   }
-  ;
+  /* ;
   .quiz-sample {
     font-size: 130%;
     padding-top: 0;
@@ -424,6 +450,81 @@
   .field p {
     margin-top: 10px;
     font-size: 110%;
+  } */
+  .quiz-sample {
+    font-size: 130%;
+    padding-top: 0;
+  }
+  .quiz-sample .btn-qs {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .quiz-sample label {
+    font-size: 110%;
+    padding-left: 4%;
+  }
+  .quiz-sample label input[type="radio"] {
+    margin: 1.80% 1% 0 0;
+  }
+  .field {
+    margin-top: 15px;
+  }
+  .field button {
+    margin: 0 7%;
+  }
+  .field p {
+    font-size: 110%;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .field label span {
+    padding-left: 3%;
+  }
+  .field .extra-info {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .theory-questions, .theory-solutions {
+    font-size: 110%;
+  }
+  .theory-questions h3, .theory-solutions h3 {
+    padding-top: 30px;
+    font-size: 100%;
+  }
+  .theory-questions img, .theory-solutions img {
+    padding: 10px 0 0 0;
+  }
+  .part_2 {
+    width: 100%;
+  }
+  .major-questions-num {
+    width: 10%;
+  }
+  .major-questions-items {
+    width: 85%;
+  }
+  .major-questions-items li {
+    padding-left: 0;
+  }
+  .major-questions-items .list-items li {
+    padding-left: 7%;
+    padding-bottom: 1%;
+  }
+  .list-numerals, .objective-question-num {
+    width: 5%;
+  }
+  .objective-question {
+    padding-left: 2%;
+  }
+  .list-items, .objective-question {
+    width: 95%;
+  }
+  .list-items, .list-numerals, .objective-question, .major-questions-num, .major-questions-items, .objective-question-num {
+    float: left;
+  }
+  .field .extra-info {
+    padding-top: 0;
+    margin-top: 0;
   }
   .article-content h3 {
     font-size: 110%;
@@ -437,55 +538,6 @@
     font-size: 160%;
     margin-bottom: 0;
   }
-  /* .section-downloads h3 {
-    padding: 5% 0;
-    text-align: center;
-    font-size: 125%;
-    font-weight: 500;
-    margin-top: 0;
-  }
-  .section-downloads .col.span_1_of_5 {
-    width: 33%;
-    margin: 3% 0 0 0;
-    padding-left: 0;
-    padding-right: 0;
-    ;
-  }
-  #terminal-exams, #mock-exams {
-    width: 40%;
-    margin: 3% 1% 3% 6%;
-  }
-  #terminal-exams h3, #mock-exams h3 {
-    margin-bottom: 15px;
-    padding: 0 0 15px 0;
-  }
-  .syllabuses li {
-    margin: 0 0 1% 15%;
-    font-size: 110%;
-    font-weight: 500;
-  }
-  .section-downloads button.accordion {
-    margin: 0 0 5% 0;
-  }
-  .section-downloads button.accordion, #lesson-note button.accordion {
-    width: 100%;
-    font-size: 100%;
-    font-weight: 500;
-    padding: 5% 7%;
-  }
-  #lesson-note button.accordion {
-    margin: 3% 0 0 0;
-  }
-  .section-downloads .accordion-content li {
-    width: 85%;
-    margin: 1% 6%;
-  }
-  .section-downloads h3:after {
-    width: 60%;
-  }
-  #terminal-exams h3:after, #mock-exams h3:after {
-    width: 45%;
-  } */
   .section-downloads h3 {
     text-align: center;
     font-size: 125%;
@@ -655,7 +707,7 @@
     width: 50%;
     margin: 0;
   }
-  .section-subjects .btn-qs {
+  .section-subjects .btn-qs, .quiz-sample .btn-qs {
     width: 55%;
     margin: 0 22.5% 45px 22.5%;
     font-size: 100%;
@@ -707,19 +759,80 @@
     padding: 6px 0;
     font-size: 100%;
   }
-  ;
   .quiz-sample {
-    font-size: 130%;
+    font-size: 120%;
     padding-top: 0;
-    padding-left: 20px;
+  }
+  .quiz-sample .btn-qs {
+    width: 70%;
+    margin-left: 15%;
   }
   .quiz-sample label {
-    padding-left: 20px;
     font-size: 110%;
+    padding-left: 4%;
+  }
+  .quiz-sample label input[type="radio"] {
+    margin: 1.80% 1% 0 0;
+  }
+  .field {
+    margin-top: 15px;
+  }
+  .field button {
+    margin: 0 7%;
   }
   .field p {
     font-size: 110%;
-    margin-top: 10px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .field label span {
+    padding-left: 3%;
+  }
+  .field .extra-info {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .theory-questions, .theory-solutions {
+    font-size: 110%;
+  }
+  .theory-questions h3, .theory-solutions h3 {
+    padding-top: 30px;
+    font-size: 100%;
+  }
+  .theory-questions img, .theory-solutions img {
+    padding: 10px 0 0 0;
+  }
+  .part_2 {
+    width: 100%;
+  }
+  .major-questions-num {
+    width: 10%;
+  }
+  .major-questions-items {
+    width: 85%;
+  }
+  .major-questions-items li {
+    padding-left: 0;
+  }
+  .major-questions-items .list-items li {
+    padding-left: 7%;
+    padding-bottom: 1%;
+  }
+  .list-numerals, .objective-question-num {
+    width: 5%;
+  }
+  .objective-question {
+    padding-left: 2%;
+  }
+  .list-items, .objective-question {
+    width: 95%;
+  }
+  .list-items, .list-numerals, .objective-question, .major-questions-num, .major-questions-items, .objective-question-num {
+    float: left;
+  }
+  .field .extra-info {
+    padding-top: 0;
+    margin-top: 0;
   }
   .box img {
     height: auto;
@@ -881,9 +994,6 @@
     margin: 0 15px 15px 15px;
     margin-left: 0;
   }
-  /* .main-nav li, .main-nav-blog li {
-    display: block;
-  } */
   .main-nav li a:link, .main-nav li a:visited, .main-nav-blog li a:link, .main-nav-blog li a:visited {
     display: block;
     padding: 3px 0;
@@ -933,11 +1043,6 @@
   .sticky .active {
     padding-bottom: 0;
   }
-  /* .sticky .main-nav li a:link, .sticky .main-nav li a:visited {
-    color: #00aced;
-    padding: 5px 0;
-    font-size: 100%;
-  } */
   .sticky .main-nav li a:link, .sticky .main-nav li a:visited {
     color: #fff;
     padding: 5px 0;
@@ -996,7 +1101,7 @@
   .section-subjects h2 {
     margin: 20px auto;
   }
-  .section-subjects .btn-qs {
+  .section-subjects .btn-qs, .quiz-sample .btn-qs {
     width: 60%;
     margin: 0 20% 25px 20%;
     font-size: 90%;
@@ -1036,18 +1141,89 @@
     padding: 6px 0;
     font-size: 100%;
   }
-  ;
-  .quiz-sample {
-    font-size: 130%;
+  .middle-column .col.span_1_of_2 {
+    width: 45%;
+    margin: 3% 0 0 0;
+    text-align: center;
+  }
+  .middle-column .col.span_1_of_2#score {
+    margin-left: 10%;
+  }
+
+  .field .extra-info {
     padding-top: 0;
-    padding-left: 20px;
+    margin-top: 0;
+  }
+  .quiz-sample {
+    font-size: 120%;
+    padding-top: 0;
+  }
+  .quiz-sample .btn-qs {
+    width: 70%;
+    margin-left: 15%;
   }
   .quiz-sample label {
-    font-size: 120%;
+    font-size: 110%;
+    padding-left: 4%;
+  }
+  .quiz-sample label input[type="radio"] {
+    margin: 1.80% 1% 0 0;
+  }
+  .field {
+    margin-top: 15px;
+  }
+  .field button {
+    margin: 0 7%;
   }
   .field p {
-    padding-top: 10px;
-    font-size: 120%;
+    font-size: 110%;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .field label span {
+    padding-left: 3%;
+  }
+  .field .extra-info {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .theory-questions, .theory-solutions {
+    font-size: 110%;
+  }
+  .theory-questions h3, .theory-solutions h3 {
+    padding-top: 30px;
+    font-size: 100%;
+  }
+  .theory-questions img, .theory-solutions img {
+    padding: 10px 0 0 0;
+  }
+  .part_2 {
+    width: 100%;
+  }
+  .major-questions-num {
+    width: 10%;
+  }
+  .major-questions-items {
+    width: 85%;
+  }
+  .major-questions-items li {
+    padding-left: 0;
+  }
+  .major-questions-items .list-items li {
+    padding-left: 7%;
+    padding-bottom: 1%;
+  }
+  .list-numerals, .objective-question-num {
+    width: 5%;
+  }
+  .objective-question {
+    padding-left: 2%;
+  }
+  .list-items, .objective-question {
+    width: 95%;
+  }
+  .list-items, .list-numerals, .objective-question, .major-questions-num, .major-questions-items, .objective-question-num {
+    float: left;
   }
   .box img {
     height: auto;
@@ -1321,7 +1497,7 @@
   .section-subjects h2 {
     margin: 20px auto;
   }
-  .section-subjects .btn-qs {
+  .section-subjects .btn-qs, .quiz-sample .btn-qs {
     width: 70%;
     margin: 0 15% 25px 15%;
     font-size: 100%;
@@ -1372,6 +1548,7 @@
     margin: 2% auto;
   }
   .middle-column h3 {
+    margin-top: 0;
     font-size: 150%;
     text-align: center;
     font-weight: 500;
@@ -1384,602 +1561,728 @@
     width: 22%;
     margin: 0 1.4% 0 1.4%;
   }
+  .middle-column .col.span_1_of_2 {
+    width: 45%;
+    margin: 3% 0 0 0;
+  }
+  .middle-column .col.span_1_of_2#score {
+    margin-left: 0;
+  }
+  #stopWatch, .score {
+    font-size: 150%;
+  }
   .col.span_1_of_4.control-items .btn-ctrl:link, .col.span_1_of_4.control-items .btn-ctrl:visited {
     padding: 6px 0;
     font-size: 100%;
   }
-  ;
   .quiz-sample {
     font-size: 120%;
     padding-top: 0;
   }
+  .quiz-sample .btn-qs {
+    width: 90%;
+    margin-left: 5%;
+  }
   .quiz-sample label {
     font-size: 110%;
+    padding-left: 4%;
+  }
+  .quiz-sample label input[type="radio"] {
+    margin: 1.80% 1% 0 0;
+  }
+  .field {
+    margin-top: 15px;
+  }
+  .field button {
+    margin: 0 7%;
   }
   .field p {
     font-size: 110%;
-  }
-  .article-content h3 {
-    font-size: 110%;
-    text-align: left;
-  }
-  .section-downloads h2 {
-    font-size: 150%;
-    margin-bottom: 20px;
-  }
-  .section-downloads h3 {
-    padding: 2% 0;
-    text-align: center;
-    font-size: 150%;
-    margin: 10px 0;
-    margin-bottom: 7px;
-  }
-  .section-downloads .col.span_1_of_5, #terminal-exams, #mock-exams, #lesson-note {
-    width: 46%;
-    margin: 3% 2% 2% 2%;
-  }
-  .accordion-content li a:hover, .accordion-content li a:active {
-    color: #fff;
-  }
-  #terminal-exams {
-    margin-right: 2%;
-  }
-  .syllabuses li {
-    margin: 0 3% 1% 5%;
-    font-size: 110%;
-    text-align: left;
-  }
-  .syllabuses li a:link, .syllabuses li a:visited, #lesson-note li a:link, #lesson-notes li a:visited {
-    margin-left: 0;
-  }
-  #terminal-exams h3, #mock-exams h3, #lesson-note h3 {
-    margin-bottom: 15px;
-    padding-bottom: 0;
-    padding-top: 2%;
-  }
-  .section-downloads button.accordion, #lesson-note button.accordion {
-    padding: 6% 6%;
-    margin: 2% 5%;
-    width: 90%;
-    font-size: 90%;
-  }
-  /* .section-downloads button.accordion, #lesson-note button.accordion {
-    width: 100%;
-    padding: 7% 3%;
-    margin: 0 0 5% 0;
-    font-size: 90%;
-    font-weight: 600;
-  }
-  .section-downloads .accordion-content li {
-    width: 60%;
-    margin: 1% 19%;
-  }
-  #lesson-note h3 {
-    margin-bottom: 15px;
-    padding: 15px 0;
-  }
-  #mock-exams h3 {
     padding-top: 0;
-  } */
-  .section-downloads h3:after, #terminal-exams h3:after, #mock-exams h3:after {
-    width: 100%;
+    margin-top: 0;
   }
-  .accordion-content li a:hover, .accordion-content li a:active {
-    color: #fff;
+  .field label span {
+    padding-left: 3%;
   }
-  .div-centered-showblog {
-    width: 75%;
-    margin-top: 40px;
+  .field .extra-info {
+    padding-top: 0;
+    margin-top: 0;
   }
-  .row div h2 {
-    font-size: 170%;
-  }
-  .popular-post .group h2 {
-    padding-top: 10px;
-  }
-  /* Login and Sign in */
-  .col-centered {
-    width: 60%;
-  }
-  .comment-section {
-    width: 90%;
-    margin: 7% 5%;
-  }
-  /* Footer Section */
-  footer .col.col.span_1_of_3 {
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 1%;
-  }
-  footer h3 {
-    text-align: center;
-    margin: 15px 0;
-  }
-  .footer-nav {
-    width: 80%;
-    margin-left: 23%;
-  }
-  .footer-nav li {
-    width: 100%;
-  }
-  footer .fa {
-    margin-right: 7%;
-  }
-  .contact-number {
-    padding-left: 6%;
-  }
-  .contact-number, .email {
-    font-size: 140%;
-  }
-  .footer-social-links {
-    width: 75%;
-    margin-left: 25%;
-  }
-  .footer-social-links li {
-    width: 25%;
-  }
-  .news-letter {
-    text-align: left;
-  }
-  footer .col.span_1_of_3 form {
-    width: 80%;
-    margin-left: 10%;
-    font-size: 100%;
-  }
-  .news-letter {
-    text-align: center;
-  }
-  /* #like-me {
+  .theory-questions, .theory-solutions{
+      font-size: 110%;
+    }
+    .theory-questions h3, .theory-solutions h3{
+      padding-top: 0;
+      font-size: 100%;
+    }
+    .theory-questions img, .theory-solutions img {
+      padding: 10px 0 0 0;
+    }
+    .part_2 {
+      width: 100%;
+    }
+    .major-questions-num {
+      width: 10%;
+    }
+    .major-questions-items {
+      width: 85%;
+    }
+    .major-questions-items li {
+      padding-left: 0;
+    }
+    .major-questions-items .list-items li {
+      padding-left: 7%;
+      padding-bottom: 1%;
+    }
+    .list-numerals, .objective-question-num {
+      width: 5%;
+    }
+    .objective-question {
+      padding-left: 2%;
+    }
+    .list-items, .objective-question {
+      width: 95%;
+    }
+    .list-items, .list-numerals, .objective-question, .major-questions-num, .major-questions-items, .objective-question-num {
+      float: left;
+    }
+    .article-content h3 {
+      font-size: 110%;
+      text-align: left;
+    }
+    .section-downloads h2 {
+      font-size: 150%;
+      margin-bottom: 20px;
+    }
+    .section-downloads h3 {
+      padding: 2% 0;
+      text-align: center;
+      font-size: 150%;
+      margin: 10px 0;
+      margin-bottom: 7px;
+    }
+    .section-downloads .col.span_1_of_5, #terminal-exams, #mock-exams, #lesson-note {
+      width: 46%;
+      margin: 3% 2% 2% 2%;
+    }
+    .accordion-content li a:hover, .accordion-content li a:active {
+      color: #fff;
+    }
+    #terminal-exams {
+      margin-right: 2%;
+    }
+    .syllabuses li {
+      margin: 0 3% 1% 5%;
+      font-size: 110%;
+      text-align: left;
+    }
+    .syllabuses li a:link, .syllabuses li a:visited, #lesson-note li a:link, #lesson-notes li a:visited {
+      margin-left: 0;
+    }
+    #terminal-exams h3, #mock-exams h3, #lesson-note h3 {
+      margin-bottom: 15px;
+      padding-bottom: 0;
+      padding-top: 2%;
+    }
+    .section-downloads button.accordion, #lesson-note button.accordion {
+      padding: 6% 6%;
+      margin: 2% 5%;
+      width: 90%;
+      font-size: 90%;
+    }
+    .section-downloads h3:after, #terminal-exams h3:after, #mock-exams h3:after {
+      width: 100%;
+    }
+    .accordion-content li a:hover, .accordion-content li a:active {
+      color: #fff;
+    }
+    .div-centered-showblog {
+      width: 75%;
+      margin-top: 40px;
+    }
+    .row div h2 {
+      font-size: 170%;
+    }
+    .popular-post .group h2 {
+      padding-top: 10px;
+    }
+    /* Login and Sign in */
+    .col-centered {
+      width: 60%;
+    }
+    .comment-section {
+      width: 90%;
+      margin: 7% 5%;
+    }
+    /* Footer Section */
+    footer .col.col.span_1_of_3 {
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 1%;
+    }
+    footer h3 {
+      text-align: center;
+      margin: 15px 0;
+    }
+    .footer-nav {
+      width: 80%;
+      margin-left: 23%;
+    }
+    .footer-nav li {
+      width: 100%;
+    }
+    footer .fa {
+      margin-right: 7%;
+    }
+    .contact-number {
+      padding-left: 6%;
+    }
+    .contact-number, .email {
+      font-size: 140%;
+    }
+    .footer-social-links {
+      width: 75%;
+      margin-left: 25%;
+    }
+    .footer-social-links li {
+      width: 25%;
+    }
+    .news-letter {
+      text-align: left;
+    }
+    footer .col.span_1_of_3 form {
+      width: 80%;
+      margin-left: 10%;
+      font-size: 100%;
+    }
+    .news-letter {
+      text-align: center;
+    }
+    /* #like-me {
     padding-left: 0;
     margin-bottom: 0;
   } */
-}
-
-/* Small phones from zero to 480px */
-
-@media only screen and (max-width: 480px) {
-  section {
-    padding: 25px 0;
   }
-  nav {
-    padding: 5px 0 10px 0;
-  }
-  .col {
-    width: 100%;
-    margin: 0 0 4% 0;
-  }
-  .col:first-child {
-    margin-left: 1.5%;
-  }
-  .btn-ctrl:link, .btn-ctrl:visited {
-    font-size: 100%;
-    font-weight: 600;
-  }
-  .crt-user {
-    display: block;
-    margin-right: 0;
-  }
-  .brand--crt--user {
-    float: left;
-  }
-  a.brand {
-    padding-top: 9px;
-    margin-right: 20px;
-  }
-  .header-btn {
-    width: 47%;
-    margin: 2% 1%;
-  }
-  #mock {
-    width: 60%;
-    margin: 2% 20%;
-  }
-  #mock {
-    float: right;
-  }
-  #mock .btn-full, #exams .btn-full, #syllabus .btn-full {
-    background: none;
-    color: #fff;
-  }
-  #mock .btn-full:hover, #exams .btn-full:hover, #syllabus .btn-full:hover {
-    background-color: #666;
-  }
-  .mobile-nav-icon i {
-    padding-top: 5px;
-  }
-  .main-nav li a:link, .main-nav li a:visited, .main-nav-blog li a:link, .main-nav-blog li a:visited {
-    display: block;
-    padding: 3px 0;
-    border: 0;
-    text-align: center;
-    font-size: 120%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .section-subjects h2 {
-    margin: 20px auto;
-  }
-  .section-subjects .btn-qs {
-    width: 95%;
-    margin: 0 0 25px 2.5%;
-    font-size: 90%;
-  }
-  .middle-column {
-    width: 100%;
-    margin: 2% 0;
-    padding: 5% 0;
-  }
-  .middle-column h3 {
-    margin: 15px 0 15px 0;
-  }
-  /* .col.span_1_of_4.control-items select {
-    padding: 8px 10px;
-    width: 100%;
-  }
-  .col.span_1_of_4 {
-    width: 45%;
-    margin: 0 2% 0 2%;
-  }
-  .col.span_1_of_4.control-items .btn-ctrl:link, .col.span_1_of_4.control-items .btn-ctrl:visited {
-    padding: 6px 0;
-    font-size: 120%;
-  }
-  ;
-  .quiz-sample {
-    padding-top: 0;
-  }
-  .quiz-sample label {
-    font-size: 100%;
-  }
-  .field p {
-    font-size: 100%;
-  }
-  .section-downloads .col.span_1_of_5, #terminal-exams, #mock-exams {
-    width: 70%;
-    margin: 3% 0 3% 15%;
-  }
-  .syllabuses li, .lesson-notes li {
-    margin: 0 10% 1% 10%;
-    font-size: 110%;
-    text-align: left;
-  }
-  .section-downloads button.accordion {
-    padding: 6% 6%;
-    margin: 3% 5%;
-    width: 90%;
-    font-size: 100%;
-  }
-  .section-forms form {
-    width: 70%;
-  }
-  .section-downloads h3 {
-    font-size: 140%;
-    padding: 2% 0;
-    margin-top: 0;
-    margin-bottom: 5px;
-    text-align: center;
-  }
-  .section-downloads h2 {
-    margin-bottom: 10px;
-  }
-  .div-centered-showblog {
-    width: 85%;
-  }
-  .row div h2 {
-    font-size: 150%;
-  }
-  .article-content h3 {
-    font-size: 110%;
-    text-align: center;
-  }
-  .article-content p {
-    text-align: justify;
-  } */
-  .col.span_1_of_4 {
-    width: 45%;
-    margin: 1.5% 1% 1.5% 2%;
-  }
-  .col.span_1_of_4.control-items select {
-    padding: 9px 5px 8px 5px;
-    width: 80%;
-    margin-left: 10%;
-  }
-  .col.span_1_of_4.control-items .btn-ctrl:link, .col.span_1_of_4.control-items .btn-ctrl:visited {
-    padding: 7px 0;
-    width: 80%;
-    font-size: 100%;
-    margin-left: 9%;
-  }
-  .quiz-sample {
-    font-size: 130%;
-    padding: 10px 0 10px 5px;
-  }
-  .quiz-sample label {
-    font-size: 100%;
-    padding-left: 0;
-    margin-left: 0;
-  }
-  .field p {
-    font-size: 100%;
-  }
-  .section-articles .col.span_1_of_3 {
-    width: 100%;
-    margin-left: 0;
-  }
-  .article-content div a:link, .article-content div a:visited {
-    color: #555;
-  }
-  .section-downloads {
-    margin-bottom: 40px;
-  }
-  .section-downloads h2 {
-    margin-bottom: 10px;
-  }
-  .section-downloads .col.span_1_of_5, #terminal-exams, #mock-exams, #lesson-note {
-    width: 90%;
-    margin: 5% 0 3% 5%;
-  }
-  .accordion-content li a:hover, .accordion-content li a:active {
-    color: #fff;
-  }
-  #terminal-exams h3, #mock-exams h3, #lesson-note h3 {
-    margin-bottom: 15px;
-    padding-top: 5px;
-  }
-  .syllabuses li {
-    margin: 0 3% 1% 3%;
-    font-size: 110%;
-    text-align: center;
-  }
-  .syllabuses li a:link, .syllabuses li a:visited, .lesson-notes li a:link, .lesson-notes li a:visited {
-    margin-left: 0;
-  }
-  .section-downloads button.accordion, #lesson-note button.accordion {
-    padding: 6% 6%;
-    margin: 2% 5%;
-    width: 90%;
-    font-size: 100%;
-  }
-  .section-downloads h3 {
-    font-size: 150%;
-    padding: 2% 0;
-    margin: 10px 0;
-    text-align: center;
-  }
-  .section-downloads h3:after {
-    width: 100%;
-  }
-  /* Login and Sign in */
-  .col-centered {
-    width: 70%;
-  }
-  .comment-section {
-    width: 80%;
-    margin: 5% 10%;
-  }
-  .popular-post .group h2 {
-    padding-top: 10px;
-  }
-  .div-centered-showblog {
-    margin-top: 40px;
-  }
-  /* footer section */
-  .footer-nav {
-    width: 100%;
-    margin-left: 0;
-  }
-  .footer-nav li {
-    width: 85%;
-    margin-left: 13%;
-  }
-  .footer-social-links {
-    margin-left: 16%;
-  }
-  .footer-social-links li {
-    display: inline-block;
-    margin-right: 15px;
-  }
-  .footer-social-links li:last-child {
-    margin-right: 0;
-  }
-  footer .col.span_1_of_3 form {
-    width: 90%;
-    margin-left: 5%;
-  }
-}
-
- @media only screen and (max-width: 390px) {
-  section {
-    padding: 20px 0;
-  }
-  .btn-ctrl:link, .btn-ctrl:visited {
-    font-size: 82%;
-    font-weight: 700;
-  }
-  .col {
-    width: 100%;
-    margin: 0 0 4% 0;
-  }
-  .col:first-child {
-    margin-left: 1.5%;
-  }
-  nav {
-    padding: 10px 0 15px 0;
-  }
-  .header-btn {
-    width: 47%;
-    margin: 5% 1%;
-  }
-  a.brand {
-    padding-top: 7px;
-  }
-  .col.span_1_of_4 {
-    width: 45%;
-    margin: 3% 1% 3% 2%;
-  }
-  select {
-    padding: 9px 5px;
-    width: 100%;
-  }
-  .col.span_1_of_4.control-items .btn-ctrl:link, .col.span_1_of_4.control-items .btn-ctrl:visited {
-    padding: 7px 0;
-    font-size: 100%;
-  }
-  ;
-  #mock {
-    width: 60%;
-    margin: 5% 20%;
-  }
-  #mock .btn-full, #exams .btn-full, #syllabus .btn-full {
-    background: none;
-    color: #fff;
-  }
-  #mock .btn-full:hover, #exams .btn-full:hover, #syllabus .btn-full:hover {
-    background-color: #666;
-  }
-  .section-subjects .btn-qs {
-    width: 100%;
-    margin: 0 0 25px 0;
-    font-size: 90%;
-    font-weight: 550;
-  }
-  .section-subjects h2 {
-    margin: 20px auto;
-  }
-  button.accordion, #btn-ict {
+  /* Small phones from zero to 480px */
+  @media only screen and (max-width: 480px) {
+    section {
+      padding: 25px 0;
+    }
+    nav {
+      padding: 5px 0 10px 0;
+    }
+    .col {
+      width: 100%;
+      margin: 0 0 4% 0;
+    }
+    .col:first-child {
+      margin-left: 1.5%;
+    }
+    .btn-ctrl:link, .btn-ctrl:visited {
+      font-size: 100%;
+      font-weight: 600;
+    }
+    .crt-user {
+      display: block;
+      margin-right: 0;
+    }
+    .brand--crt--user {
+      float: left;
+    }
+    a.brand {
+      padding-top: 9px;
+      margin-right: 20px;
+    }
+    .header-btn {
+      width: 47%;
+      margin: 2% 1%;
+    }
+    #mock {
+      width: 60%;
+      margin: 2% 20%;
+    }
+    #mock {
+      float: right;
+    }
+    #mock .btn-full, #exams .btn-full, #syllabus .btn-full {
+      background: none;
+      color: #fff;
+    }
+    #mock .btn-full:hover, #exams .btn-full:hover, #syllabus .btn-full:hover {
+      background-color: #666;
+    }
+    .mobile-nav-icon i {
+      padding-top: 5px;
+    }
+    .main-nav li a:link, .main-nav li a:visited, .main-nav-blog li a:link, .main-nav-blog li a:visited {
+      display: block;
+      padding: 3px 0;
+      border: 0;
+      text-align: center;
+      font-size: 120%;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .section-subjects h2 {
+      margin: 20px auto;
+    }
+    .section-subjects .btn-qs, .quiz-sample .btn-qs {
+      width: 95%;
+      margin: 0 0 25px 2.5%;
+      font-size: 90%;
+    }
+    .middle-column {
+      width: 100%;
+      margin: 2% 0;
+      padding: 5% 0;
+    }
+    .middle-column h3 {
+      margin: 15px 0 15px 0;
+    }
+    .col.span_1_of_4 {
+      width: 45%;
+      margin: 1.5% 1% 1.5% 2%;
+    }
+    .col.span_1_of_4.control-items select {
+      padding: 9px 5px 8px 5px;
+      width: 80%;
+      margin-left: 10%;
+    }
+    .col.span_1_of_4.control-items .btn-ctrl:link, .col.span_1_of_4.control-items .btn-ctrl:visited {
+      padding: 7px 0;
+      width: 80%;
+      font-size: 100%;
+      margin-left: 9%;
+    }
+    .middle-column .col.span_1_of_2 {
+      width: 100%;
+      margin: 3% 0 0 0;
+    }
+    /* .middle-column .col.span_1_of_2#score {
     margin: 0;
-    padding: 15px 11px;
-    width: 100%;
-    font-weight: 700;
-    font-size: 95%;
+  } */
+    #stopWatch, .score {
+      font-size: 150%;
+      margin-bottom: 0;
+    }
+    .field .extra-info {
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .part_2 {
+      width: 100%;
+      /* margin-left: 10%; */
+    }
+    .quiz-sample {
+      font-size: 120%;
+      padding-top: 0;
+    }
+    .quiz-sample .btn-qs {
+      width: 100%;
+      margin-bottom: 0;
+    }
+    .quiz-sample label {
+      font-size: 110%;
+      padding-left: 14px;
+    }
+    .quiz-sample label input[type="radio"] {
+      margin: 1.80% 1% 0 0;
+    }
+    .field {
+      margin-top: 15px;
+    }
+    .field button {
+      margin: 0 7%;
+    }
+    .field p {
+      font-size: 110%;
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .field label span {
+      padding-left: 3%;
+    }
+    .field .extra-info {
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .theory-questions, .theory-solutions{
+      font-size: 110%;
+    }
+    .theory-questions h3, .theory-solutions h3 {
+      padding-top: 0;
+      font-size: 100%;
+    }
+    .theory-questions img, .theory-solutions {
+      padding: 10px 0 0 0;
+    }
+    .part_2 {
+      width: 100%;
+    }
+    .major-questions-num {
+      width: 10%;
+    }
+    .major-questions-items {
+      width: 85%;
+    }
+    .major-questions-items li {
+      padding-left: 0;
+    }
+    .major-questions-items .list-items li {
+      padding-left: 7%;
+      padding-bottom: 1%;
+    }
+    .list-numerals, .objective-question-num {
+      width: 5%;
+    }
+    .objective-question {
+      padding-left: 2%;
+    }
+    .list-items, .objective-question {
+      width: 95%;
+    }
+    .list-items, .list-numerals, .objective-question, .major-questions-num, .major-questions-items, .objective-question-num {
+      float: left;
+    }
+    .section-articles .col.span_1_of_3 {
+      width: 100%;
+      margin-left: 0;
+    }
+    .article-content div a:link, .article-content div a:visited {
+      color: #555;
+    }
+    .section-downloads {
+      margin-bottom: 40px;
+    }
+    .section-downloads h2 {
+      margin-bottom: 10px;
+    }
+    .section-downloads .col.span_1_of_5, #terminal-exams, #mock-exams, #lesson-note {
+      width: 90%;
+      margin: 5% 0 3% 5%;
+    }
+    .accordion-content li a:hover, .accordion-content li a:active {
+      color: #fff;
+    }
+    #terminal-exams h3, #mock-exams h3, #lesson-note h3 {
+      margin-bottom: 15px;
+      padding-top: 5px;
+    }
+    .syllabuses li {
+      margin: 0 3% 1% 3%;
+      font-size: 110%;
+      text-align: center;
+    }
+    .syllabuses li a:link, .syllabuses li a:visited, .lesson-notes li a:link, .lesson-notes li a:visited {
+      margin-left: 0;
+    }
+    .section-downloads button.accordion, #lesson-note button.accordion {
+      padding: 6% 6%;
+      margin: 2% 5%;
+      width: 90%;
+      font-size: 100%;
+    }
+    .section-downloads h3 {
+      font-size: 150%;
+      padding: 2% 0;
+      margin: 10px 0;
+      text-align: center;
+    }
+    .section-downloads h3:after {
+      width: 100%;
+    }
+    /* Login and Sign in */
+    .col-centered {
+      width: 70%;
+    }
+    .comment-section {
+      width: 80%;
+      margin: 5% 10%;
+    }
+    .popular-post .group h2 {
+      padding-top: 10px;
+    }
+    .div-centered-showblog {
+      margin-top: 40px;
+    }
+    /* footer section */
+    .footer-nav {
+      width: 100%;
+      margin-left: 0;
+    }
+    .footer-nav li {
+      width: 85%;
+      margin-left: 13%;
+    }
+    .footer-social-links {
+      margin-left: 16%;
+    }
+    .footer-social-links li {
+      display: inline-block;
+      margin-right: 15px;
+    }
+    .footer-social-links li:last-child {
+      margin-right: 0;
+    }
+    footer .col.span_1_of_3 form {
+      width: 90%;
+      margin-left: 5%;
+    }
   }
-  .accordion-content li {
-    width: 40%;
-    margin-left: 5%;
-  }
-  .middle-column {
-    width: 100%;
-    margin: 2% 0;
-    padding: 5% 0;
-  }
-  .middle-column h3 {
-    margin: 10px 0;
-  }
-  .quiz-sample {
-    font-size: 130%;
-    padding: 10px 0 10px 5px;
-  }
-  .quiz-sample label {
-    font-size: 100%;
-    padding-left: 0;
-    margin-left: 0;
-  }
-  .field p {
-    font-size: 100%;
-  }
- .section-articles .col.span_1_of_3 {
-    width: 100%;
-    margin-left: 0;
-  } 
-  .col.span_1_of_3 {
-    width: 95%;
-    margin: 0 0 3% 2.5%;
-  }
-  .article-content div a:link, .article-content div a:visited {
-    color: #555;
-  }
-  .section-downloads {
-    margin-bottom: 40px;
-  }
-  .section-downloads h2 {
-    margin-bottom: 10px;
-  }
-  .section-downloads .col.span_1_of_5, #terminal-exams, #mock-exams, #lesson-note {
-    width: 90%;
-    margin: 5% 0 3% 5%;
-  }
-  #terminal-exams h3, #mock-exams h3, #lesson-note h3 {
-    margin-bottom: 15px;
-    padding-top: 5px;
-  }
-  .syllabuses li {
-    margin: 0 3% 1% 3%;
-    font-size: 110%;
-    text-align: center;
-  }
-  .syllabuses li a:link, .syllabuses li a:visited {
-    margin-left: 0;
-  }
-  .section-downloads button.accordion, #lesson-note button.accordion {
-    padding: 6% 6%;
-    margin: 2% 5%;
-    width: 90%;
-    font-size: 100%;
-  }
-  .accordion-content li a:hover, .accordion-content li a:active {
-    color: #fff;
-  }
-  .section-downloads h3 {
-    font-size: 150%;
-    padding: 2% 0;
-    margin: 10px 0;
-    text-align: center;
-  }
-  .section-downloads h3:after {
-    width: 100%;
-  }
-  .comment-section {
-    width: 90%;
-    margin: 5% 5%;
-  }
-  .div-centered-showblog {
-    width: 85%;
-  }
-  .row div h2 {
-    font-size: 150%;
-  }
-  .article-content h3 {
-    font-size: 110%;
-    text-align: center;
-  }
-  /* Login and Sign in */
-  .col-centered {
-    width: 70%;
-  }
-  .popular-post .group h2 {
-    padding-top: 10px;
-  }
-  .div-centered-showblog {
-    margin-top: 40px;
-  }
-   footer section 
-  .footer-nav {
-    width: 100%;
-    margin-left: 0;
-  }
-  .footer-nav li {
-    width: 90%;
-    margin-left: 5%;
-  }
-  .footer-social-links {
-    margin-left: 16%;
-  }
-  .footer-social-links li {
-    display: inline-block;
-    margin-right: 15px;
-  }
-  .footer-social-links li:last-child {
-    margin-right: 0;
-  }
-  footer .col.span_1_of_3 form {
-    width: 90%;
-    margin-left: 5%;
-  } 
-
-/* .footer-social-links li {
+  @media only screen and (max-width: 390px) {
+    section {
+      padding: 20px 0;
+    }
+    .btn-ctrl:link, .btn-ctrl:visited {
+      font-size: 82%;
+      font-weight: 700;
+    }
+    .col {
+      width: 100%;
+      margin: 0 0 4% 0;
+    }
+    .col:first-child {
+      margin-left: 1.5%;
+    }
+    nav {
+      padding: 10px 0 15px 0;
+    }
+    .header-btn {
+      width: 47%;
+      margin: 5% 1%;
+    }
+    a.brand {
+      padding-top: 7px;
+    }
+    .col.span_1_of_4 {
+      width: 45%;
+      margin: 3% 1% 3% 2%;
+    }
+    select {
+      padding: 9px 5px;
+      width: 100%;
+    }
+    .col.span_1_of_4.control-items .btn-ctrl:link, .col.span_1_of_4.control-items .btn-ctrl:visited {
+      padding: 7px 0;
+      font-size: 100%;
+    }
+    ;
+    #mock {
+      width: 60%;
+      margin: 5% 20%;
+    }
+    #mock .btn-full, #exams .btn-full, #syllabus .btn-full {
+      background: none;
+      color: #fff;
+    }
+    #mock .btn-full:hover, #exams .btn-full:hover, #syllabus .btn-full:hover {
+      background-color: #666;
+    }
+    .section-subjects .btn-qs, .quiz-sample .btn-qs {
+      width: 100%;
+      margin: 0 0 25px 0;
+      font-size: 90%;
+      font-weight: 550;
+    }
+    .section-subjects h2 {
+      margin: 20px auto;
+    }
+    button.accordion, #btn-ict {
+      margin: 0;
+      padding: 15px 11px;
+      width: 100%;
+      font-weight: 700;
+      font-size: 95%;
+    }
+    .accordion-content li {
+      width: 40%;
+      margin-left: 5%;
+    }
+    .middle-column {
+      width: 100%;
+      margin: 2% 0;
+      padding: 5% 0;
+    }
+    .middle-column h3 {
+      margin: 10px 0;
+    }
+    .quiz-sample {
+      font-size: 115%;
+      padding-top: 0;
+      padding-left: 4%;
+    }
+    .quiz-sample .btn-qs {
+      width: 100%;
+      font-size: 70%;
+      text-align: center;
+    }
+    .quiz-sample label {
+      font-size: 110%;
+      padding-left: 6%;
+    }
+    .quiz-sample label input[type="radio"] {
+      margin: 1.80% 1% 0 0;
+    }
+    .field {
+      margin-top: 15px;
+    }
+    .field button {
+      margin: 0 0 0 7%;
+    }
+    .field p {
+      font-size: 110%;
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .field label span {
+      padding-left: 3%;
+    }
+    .field .extra-info {
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .theory-questions, .theory-solutions {
+      font-size: 110%;
+    }
+    .theory-questions h3, .theory-solutions h3 {
+      padding-top: 30px;
+      font-size: 100%;
+    }
+    .theory-questions img, .theory-solutions img {
+      padding: 10px 0 0 0;
+    }
+    .part_2 {
+      width: 100%;
+    }
+    .major-questions-num {
+      width: 10%;
+    }
+    .major-questions-items {
+      width: 85%;
+    }
+    .major-questions-items li {
+      padding-left: 5%;
+    }
+    .major-questions-items .list-items li {
+      padding-left: 8%;
+      padding-bottom: 1%;
+    }
+    .list-numerals, .objective-question-num {
+      width: 5%;
+    }
+    .objective-question {
+      padding-left: 5%;
+    }
+    .list-items, .objective-question {
+      width: 95%;
+    }
+    .list-items, .list-numerals, .objective-question, .major-questions-num, .major-questions-items, .objective-question-num {
+      float: left;
+    }
+    .field .extra-info {
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .section-articles .col.span_1_of_3 {
+      width: 100%;
+      margin-left: 0;
+    }
+    .col.span_1_of_3 {
+      width: 95%;
+      margin: 0 0 3% 2.5%;
+    }
+    .article-content div a:link, .article-content div a:visited {
+      color: #555;
+    }
+    .section-downloads {
+      margin-bottom: 40px;
+    }
+    .section-downloads h2 {
+      margin-bottom: 10px;
+    }
+    .section-downloads .col.span_1_of_5, #terminal-exams, #mock-exams, #lesson-note {
+      width: 90%;
+      margin: 5% 0 3% 5%;
+    }
+    #terminal-exams h3, #mock-exams h3, #lesson-note h3 {
+      margin-bottom: 15px;
+      padding-top: 5px;
+    }
+    .syllabuses li {
+      margin: 0 3% 1% 3%;
+      font-size: 110%;
+      text-align: center;
+    }
+    .syllabuses li a:link, .syllabuses li a:visited {
+      margin-left: 0;
+    }
+    .section-downloads button.accordion, #lesson-note button.accordion {
+      padding: 6% 6%;
+      margin: 2% 5%;
+      width: 90%;
+      font-size: 100%;
+    }
+    .accordion-content li a:hover, .accordion-content li a:active {
+      color: #fff;
+    }
+    .section-downloads h3 {
+      font-size: 150%;
+      padding: 2% 0;
+      margin: 10px 0;
+      text-align: center;
+    }
+    .section-downloads h3:after {
+      width: 100%;
+    }
+    .comment-section {
+      width: 90%;
+      margin: 5% 5%;
+    }
+    .div-centered-showblog {
+      width: 85%;
+    }
+    .row div h2 {
+      font-size: 150%;
+    }
+    .article-content h3 {
+      font-size: 110%;
+      text-align: center;
+    }
+    /* Login and Sign in */
+    .col-centered {
+      width: 70%;
+    }
+    .popular-post .group h2 {
+      padding-top: 10px;
+    }
+    .div-centered-showblog {
+      margin-top: 40px;
+    }
+    footer section .footer-nav {
+      width: 100%;
+      margin-left: 0;
+    }
+    .footer-nav li {
+      width: 90%;
+      margin-left: 5%;
+    }
+    .footer-social-links {
+      margin-left: 16%;
+    }
+    .footer-social-links li {
+      display: inline-block;
+      margin-right: 15px;
+    }
+    .footer-social-links li:last-child {
+      margin-right: 0;
+    }
+    footer .col.span_1_of_3 form {
+      width: 90%;
+      margin-left: 5%;
+    }
+    /* .footer-social-links li {
     width: 20%;
     margin: 0 11px;
   } */
-
-/* .footer-social-links li.fa-twitter{margin-right: 0;}  */
-}
+    /* .footer-social-links li.fa-twitter{margin-right: 0;}  */
+  }
